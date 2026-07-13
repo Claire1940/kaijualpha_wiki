@@ -10,14 +10,7 @@
       "twitterDescription": "Explore Kaiju Alpha tier lists, kaiju abilities, U-cell farming, controls, and the latest Roblox gameplay guides in one place."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
