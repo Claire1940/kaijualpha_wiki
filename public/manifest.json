@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Kaiju Alpha Wiki - Tier List, Kaiju & U-Cell Guide",
+  "short_name": "Kaiju Alpha",
+  "description": "Kaiju Alpha Wiki covers tier lists, kaiju abilities, U-cell farming, controls, unlock guides, codes and update notes for the Roblox monster PvP battleground.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#099DDC",
+  "background_color": "#0a0e14",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
