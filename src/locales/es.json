@@ -1,10 +1,863 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Kaiju Alpha - Tier List, Guía de Kaijus y U-Cells",
+      "description": "Explora las tier lists de Kaiju Alpha, habilidades de kaijus, farmeo de U-cells, controles, notas de actualización, consejos para principiantes y las últimas guías de juego de Roblox en un solo lugar.",
+      "keywords": "Kaiju Alpha, Roblox, tier list, kaiju, U-cells, controles, actualizaciones, guía para principiantes",
+      "ogTitle": "Wiki de Kaiju Alpha - Tier List, Guía de Kaijus y U-Cells",
+      "ogDescription": "Explora las tier lists de Kaiju Alpha, habilidades de kaijus, farmeo de U-cells, controles, notas de actualización, consejos para principiantes y las últimas guías de juego de Roblox en un solo lugar.",
+      "twitterTitle": "Wiki de Kaiju Alpha - Tier List, Guía de Kaijus y U-Cells",
+      "twitterDescription": "Explora las tier lists de Kaiju Alpha, habilidades de kaijus, farmeo de U-cells, controles y las últimas guías de juego de Roblox en un solo lugar."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "rankings": "Rankings",
+    "codes": "Códigos",
+    "guide": "Guía",
+    "rankings": "Clasificaciones",
     "kaijus": "Kaijus",
-    "unlocks": "Unlocks",
-    "updates": "Updates"
+    "unlocks": "Desbloqueos",
+    "updates": "Actualizaciones"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Campo de batalla PvP de monstruos gigantes",
+    "title": "Wiki de Kaiju Alpha",
+    "description": "Domina kaijus gigantes, destruye ciudades, gana U-cells y lucha contra otros jugadores. Explora las habilidades de los kaijus, los requisitos de desbloqueo, las rutas de farmeo, los controles y cada nueva actualización.",
+    "getFreeCodesCTA": "Comprobar estado de códigos",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "54.4M+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "8.9K",
+        "label": "Jugadores en línea"
+      },
+      "stat3": {
+        "value": "95%",
+        "label": "Valoración de usuarios"
+      },
+      "stat4": {
+        "value": "16K",
+        "label": "Pico de CCU"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Kaiju Alpha",
+    "description": "Controla kaijus gigantes, desata cinco habilidades y dos rugidos, destruye ciudades para obtener Cells y lucha contra otros jugadores en un campo de batalla PvP de monstruos en Roblox."
+  },
+  "tools": {
+    "title": "Kaiju Alpha",
+    "titleHighlight": "Guías",
+    "subtitle": "Todo lo que necesitas para dominar Kaiju Alpha: rutas para principiantes, tier lists, habilidades de kaijus, farmeo de Cells, controles, desbloqueos, mejoras y notas de actualización.",
+    "cards": [
+      {
+        "icon": "GraduationCap",
+        "title": "Guía para principiantes de Kaiju Alpha",
+        "description": "Elige un kaiju inicial, aprende los controles y crea una ruta de progresión inicial segura."
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de Kaiju Alpha",
+        "description": "Clasifica a cada kaiju para PvP, farmeo y supervivencia con razonamientos claros."
+      },
+      {
+        "icon": "Flame",
+        "title": "Kaijus y habilidades de Kaiju Alpha",
+        "description": "Explora el catálogo completo de kaijus, sus habilidades, rugidos y roles de combate."
+      },
+      {
+        "icon": "Zap",
+        "title": "Guía de leveo de Kaiju Alpha",
+        "description": "Farmea Cells y experiencia más rápido con rutas eficientes y rotaciones de habilidades."
+      },
+      {
+        "icon": "Swords",
+        "title": "Guía de controles de Kaiju Alpha",
+        "description": "Domina la configuración del teclado, el timing de las habilidades y los conceptos básicos de posicionamiento en PvP."
+      },
+      {
+        "icon": "KeyRound",
+        "title": "Guía de desbloqueos de Kaiju Alpha",
+        "description": "Desbloquea kaijus y formas especiales mediante Cells, niveles y objetivos del mapa."
+      },
+      {
+        "icon": "Rocket",
+        "title": "Limit Break de Kaiju Alpha",
+        "description": "Lleva a tu kaiju favorito más allá del límite e invierte en mejoras a largo plazo."
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Actualizaciones de Kaiju Alpha",
+        "description": "Sigue de cerca los nuevos kaijus, cambios de equilibrio y el contenido en fase de pruebas."
+      }
+    ]
+  },
+  "modules": {
+    "kaijuAlphaBeginnerGuide": {
+      "title": "Guía para principiantes de Kaiju Alpha",
+      "intro": "Kaiju Alpha se basa en cinco habilidades de combate, dos rugidos y un movimiento constante entre ataques. Empieza con un kaiju fácil de usar, practica contra edificios y enemigos aislados, y luego lánzate a combates más grandes una vez que te sientas cómodo con el alcance y los enfriamientos.",
+      "steps": [
+        {
+          "title": "Elige un primer kaiju fácil de usar",
+          "description": "Kamata-Kun es una elección práctica para principiantes porque su presión a distancia funciona bien contra los muchos kaijus que dependen del combate cuerpo a cuerpo. Godzilla Junior y Suko también son opciones útiles para el farmeo inicial con movimientos y ataques sencillos.",
+          "tip": "Usa un kaiju principal hasta que sus controles y el alcance de sus ataques se sientan naturales."
+        },
+        {
+          "title": "Aprende los controles básicos",
+          "description": "Presiona 1, 2, 3, 4 y 5 para activar las cinco habilidades de tu kaiju. Presiona R para el Rugido 1 y T para el Rugido 2.",
+          "tip": "Prueba cada habilidad fuera de combates concurridos para reconocer su alcance, animación y tiempo de enfriamiento."
+        },
+        {
+          "title": "Mantente en movimiento durante el combate",
+          "description": "Desplázate lateralmente alrededor de tus oponentes en lugar de quedarte parado frente a ellos. El movimiento facilita mucho esquivar rayos, embestidas y ataques lentos de gran daño.",
+          "tip": "Ataca después de que un enemigo falle una animación larga en lugar de iniciar tú cada intercambio."
+        },
+        {
+          "title": "Usa las habilidades en una rotación simple",
+          "description": "Comienza con un ataque a distancia o de área, sigue con habilidades de daño confiables y reserva tu movimiento más fuerte para un golpe certero. Evita usar todas las habilidades a la vez.",
+          "tip": "Mantén siempre al menos un ataque disponible mientras el resto de tu equipo está en tiempo de recarga."
+        },
+        {
+          "title": "Farmea antes de buscar victorias en PvP",
+          "description": "Destruye grupos densos de edificios y usa ataques amplios para ganar experiencia y Cells de forma constante. Farmear es más seguro y confiable que desafiar repetidamente a jugadores más fuertes.",
+          "tip": "Elige rutas con varios objetivos cercanos para pasar menos tiempo caminando entre ataques."
+        },
+        {
+          "title": "Gasta Cells en un solo objetivo de progresión",
+          "description": "Ahorra para un kaiju que mejore tu rol preferido, como el farmeo, el combate a distancia, la movilidad o la presión a corta distancia. Comprar varias mejoras menores puede retrasar un desbloqueo más útil.",
+          "tip": "Mantén un kaiju de farmeo confiable disponible mientras subes de nivel a uno nuevo centrado en el combate."
+        }
+      ],
+      "quickTips": [
+        "Quédate con un kaiju hasta que sus cinco habilidades y dos rugidos se sientan automáticos.",
+        "Desplázate lateralmente de forma constante: quedarte quieto te convierte en un objetivo fácil para rayos y embestidas.",
+        "Rota tus habilidades para que un ataque esté siempre listo mientras los demás se recargan.",
+        "Farmea edificios para obtener Cells antes de perseguir a jugadores más fuertes en PvP."
+      ]
+    },
+    "kaijuAlphaTierList": {
+      "title": "Tier List de Kaiju Alpha",
+      "intro": "La mejor opción depende de cómo juegues. Los kaiju pesados dominan los combates directos, los personajes móviles castigan los ataques fallidos y los kits de área amplia ganan experiencia y Cells más rápido al farmear edificios. Estas clasificaciones cubren PvP, farmeo y utilidad general.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Los mejores polivalentes",
+          "summary": "Kaijus poderosos con gran daño, presión confiable y suficientes herramientas para manejar la mayoría de los enfrentamientos.",
+          "kaiju": [
+            {
+              "name": "Final Wars Godzilla",
+              "role": "Polivalente pesado",
+              "strengths": "Fuerte presión cuerpo a cuerpo, daño a distancia y poder de remate.",
+              "weaknesses": "Las animaciones largas pueden ser castigadas cuando los ataques fallan.",
+              "bestFor": "PvP y progresión general"
+            },
+            {
+              "name": "Destoroyah Final Form",
+              "role": "Luchador de ráfaga",
+              "strengths": "Gran amenaza a corta distancia, fuertes ataques de remate y presencia duradera.",
+              "weaknesses": "Las herramientas más peligrosas requieren comprometerse a corta distancia.",
+              "bestFor": "PvP agresivo"
+            },
+            {
+              "name": "Godzilla 2019",
+              "role": "Luchador de rayos resistente",
+              "strengths": "Ataques atómicos confiables, sólida supervivencia y daño constante.",
+              "weaknesses": "Menos móvil que los kaiju más pequeños.",
+              "bestFor": "PvP equilibrado y supervivencia"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Especialistas fuertes",
+          "summary": "Excelentes opciones que dominan actividades específicas o recompensan a los jugadores que usan sus fortalezas correctamente.",
+          "kaiju": [
+            {
+              "name": "Monster X",
+              "role": "Duelista de combos",
+              "strengths": "Presión rápida, ataques de energía y combate uno contra uno sólido.",
+              "weaknesses": "Requiere una sincronización precisa para mantener un combo.",
+              "bestFor": "Duelos y persecución de objetivos"
+            },
+            {
+              "name": "Biollante",
+              "role": "Granjero de daño de área",
+              "strengths": "Gran cobertura de ataque y daño eficiente contra objetivos agrupados.",
+              "weaknesses": "Su cuerpo grande y movilidad limitada hacen que el reposicionamiento sea más lento.",
+              "bestFor": "Farmeo de edificios y control de masas"
+            },
+            {
+              "name": "Showa Jet Jaguar",
+              "role": "Luchador cuerpo a cuerpo móvil",
+              "strengths": "Movimiento rápido, combos físicos y un fuerte reposicionamiento.",
+              "weaknesses": "El daño moderado requiere impactos limpios y repetidos.",
+              "bestFor": "PvP de golpear y correr"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Opciones confiables para progresar",
+          "summary": "Kaijus accesibles y útiles que funcionan bien mientras los jugadores aprenden rutas de farmeo y fundamentos del combate.",
+          "kaiju": [
+            {
+              "name": "Kamata-Kun",
+              "role": "Opción a distancia para principiantes",
+              "strengths": "Puede presionar a oponentes de corto alcance desde una distancia más segura.",
+              "weaknesses": "Menor poder de pelea directa cuando los enemigos alcanzan el rango cuerpo a cuerpo.",
+              "bestFor": "Principiantes y farmeo seguro"
+            },
+            {
+              "name": "Suko",
+              "role": "Granjero inicial rápido",
+              "strengths": "Buen movimiento y fácil acceso a objetivos repetidos.",
+              "weaknesses": "Menor alcance y durabilidad que los kaijus de peso pesado.",
+              "bestFor": "Subida de nivel temprana"
+            },
+            {
+              "name": "Kong",
+              "role": "Luchador de corto alcance",
+              "strengths": "Daño físico directo y fuerte presión a corta distancia.",
+              "weaknesses": "Opciones limitadas contra oponentes que mantienen la distancia.",
+              "bestFor": "Aprendizaje de combate cuerpo a cuerpo"
+            }
+          ]
+        }
+      ]
+    },
+    "kaijuAlphaKaijuAbilities": {
+      "title": "Kaijus y habilidades de Kaiju Alpha",
+      "intro": "Cada kaiju usa cinco habilidades numeradas y dos comandos de rugido, pero sus roles prácticos difieren. Algunos se especializan en rayos y presión a distancia, mientras que otros dependen de la movilidad, combos físicos o ataques amplios que despejan grupos de edificios. Encuentra uno que coincida con tu rango preferido y objetivo de progresión.",
+      "kaiju": [
+        {
+          "name": "Final Wars Godzilla",
+          "combatRole": "Polivalente pesado",
+          "attackStyle": "Cadenas cuerpo a cuerpo y presión atómica a distancia.",
+          "abilityFocus": [
+            "Combos de corto alcance",
+            "Ataques atómicos",
+            "Remates de alto impacto",
+            "Dos acciones de rugido"
+          ],
+          "bestUse": "Jugadores que quieren un solo kaiju tanto para PvP como para farmeo general."
+        },
+        {
+          "name": "Showa Jet Jaguar",
+          "combatRole": "Luchador cuerpo a cuerpo móvil",
+          "attackStyle": "Ataques físicos rápidos y reposicionamiento aéreo.",
+          "abilityFocus": [
+            "Ataques de artes marciales",
+            "Alta velocidad de movimiento",
+            "Vuelo y reposicionamiento",
+            "Dos acciones de rugido"
+          ],
+          "bestUse": "Perseguir objetivos más lentos y esquivar ataques pesados."
+        },
+        {
+          "name": "Destoroyah Final Form",
+          "combatRole": "Luchador de daño explosivo",
+          "attackStyle": "Ataques potentes a corta distancia con presión basada en energía.",
+          "abilityFocus": [
+            "Gran daño cuerpo a cuerpo",
+            "Ataques de energía",
+            "Presión de remate",
+            "Presencia de combate duradera"
+          ],
+          "bestUse": "Combates agresivos donde los enemigos no pueden mantener la distancia."
+        },
+        {
+          "name": "Monster X",
+          "combatRole": "Duelista de combos",
+          "attackStyle": "Secuencias rápidas cuerpo a cuerpo apoyadas por ataques de energía a distancia.",
+          "abilityFocus": [
+            "Combos rápidos",
+            "Proyectiles de energía",
+            "Persecución de objetivos",
+            "Ataques de castigo"
+          ],
+          "bestUse": "Combate uno contra uno y atrapar a jugadores en retirada."
+        },
+        {
+          "name": "Godzilla 2019",
+          "combatRole": "Luchador de rayos resistente",
+          "attackStyle": "Aliento atómico combinado con ataques de cuerpo y cola.",
+          "abilityFocus": [
+            "Aliento atómico",
+            "Golpes físicos",
+            "Daño sostenido",
+            "Durabilidad defensiva"
+          ],
+          "bestUse": "Combates largos y progresión equilibrada."
+        },
+        {
+          "name": "Biollante",
+          "combatRole": "Farmeador de control de área",
+          "attackStyle": "Ataques amplios basados en plantas que cubren múltiples objetivos.",
+          "abilityFocus": [
+            "Gran radio de ataque",
+            "Ataques de zarcillos",
+            "Daño a objetivos agrupados",
+            "Control de espacio"
+          ],
+          "bestUse": "Destruir grupos de edificios y controlar áreas concurridas."
+        },
+        {
+          "name": "Kamata-Kun",
+          "combatRole": "Kaiju de largo alcance para principiantes",
+          "attackStyle": "Ataques de área frontales y hostigamiento a distancia.",
+          "abilityFocus": [
+            "Presión a distancia",
+            "Daño de área",
+            "Kiting de enemigos de corto alcance",
+            "Rotación de farming sencilla"
+          ],
+          "bestUse": "Jugadores nuevos aprendiendo sobre el espaciado y la gestión de enfriamientos."
+        },
+        {
+          "name": "Suko",
+          "combatRole": "Kaiju de progresión rápida",
+          "attackStyle": "Ataques móviles de corto alcance.",
+          "abilityFocus": [
+            "Movimiento rápido",
+            "Presión cuerpo a cuerpo constante",
+            "Rotación rápida de objetivos",
+            "Combate de baja complejidad"
+          ],
+          "bestUse": "Rutas de farming iniciales y aprendizaje de movimiento."
+        },
+        {
+          "name": "Kong",
+          "combatRole": "Luchador físico",
+          "attackStyle": "Puñetazos y presión directa de corto alcance.",
+          "abilityFocus": [
+            "Golpes físicos pesados",
+            "Combos cuerpo a cuerpo",
+            "Persecución de objetivos",
+            "Castigo a corta distancia"
+          ],
+          "bestUse": "Jugadores que prefieren el combate directo."
+        },
+        {
+          "name": "Godzilla Junior",
+          "combatRole": "Luchador de rayos para principiantes",
+          "attackStyle": "Ataques físicos equilibrados y daño atómico.",
+          "abilityFocus": [
+            "Ataque atómico",
+            "Habilidades cuerpo a cuerpo básicas",
+            "Rotación directa",
+            "Daño de farming confiable"
+          ],
+          "bestUse": "Conseguir Cells iniciales antes de comprar un kaiju de farming especializado."
+        }
+      ]
+    },
+    "kaijuAlphaLevelingCellFarming": {
+      "title": "Guía de nivelación y farming de Cells de Kaiju Alpha",
+      "intro": "La progresión rápida se logra reduciendo el tiempo de inactividad entre objetivos. Los kaiju de área amplia pueden dañar varios edificios a la vez, mientras que los iniciales móviles ayudan a los nuevos jugadores a rotar entre manzanas de la ciudad sin pasar la mayor parte de la sesión viajando.",
+      "steps": [
+        {
+          "title": "Selecciona un Kaiju de farming",
+          "description": "Usa a Biollante cuando necesites una gran cobertura de ataque. Godzilla Junior y Suko ofrecen alternativas accesibles mientras ahorras Cells para desbloquear un kaiju de farming más fuerte.",
+          "tip": "Prioriza la cobertura de ataque y el movimiento sobre el daño de un solo golpe en PvP."
+        },
+        {
+          "title": "Encuentra grupos densos de edificios",
+          "description": "Comienza en un área donde varios edificios destructibles estén cerca unos de otros. Los grupos densos ofrecen más objetivos para cada habilidad y reducen el tiempo de viaje.",
+          "tip": "Deja las estructuras aisladas hasta que tu ruta principal esté temporalmente vacía."
+        },
+        {
+          "title": "Empieza con habilidades de área amplia",
+          "description": "Usa ataques que puedan golpear múltiples estructuras antes de usar movimientos de un solo objetivo. Esto genera más valor con cada enfriamiento.",
+          "tip": "Colócate donde el centro del ataque pueda abarcar varios edificios."
+        },
+        {
+          "title": "Rota las habilidades en lugar de spamear",
+          "description": "Alterna entre ataques de enfriamiento corto y medio mientras mantienes una habilidad lista para el siguiente grupo. Usar todo tu repertorio en un solo objetivo crea un tiempo de inactividad innecesario.",
+          "tip": "Muévete hacia la siguiente manzana mientras tu habilidad de mayor enfriamiento se recarga."
+        },
+        {
+          "title": "Evita el PvP innecesario",
+          "description": "Las peleas prolongadas pueden interrumpir una ruta de farmeo eficiente y ofrecer un progreso menos constante que destruir edificios. Aléjate de los jugadores más fuertes cuando subir de nivel sea tu objetivo principal.",
+          "tip": "Usa la movilidad y el terreno para tomar distancia en lugar de reiniciar una pelea perdida."
+        },
+        {
+          "title": "Repite una ruta fija",
+          "description": "Recorre la misma secuencia de zonas de alta densidad y regresa cuando los objetivos comiencen a reaparecer. Una ruta conocida es más rápida que buscar por todo el mapa al azar.",
+          "tip": "Ajusta la ruta cuando otro jugador ya esté limpiando una de tus zonas principales."
+        },
+        {
+          "title": "Lleva a un kaiju al nivel 200",
+          "description": "Concentra la experiencia en un personaje de farmeo confiable antes de repartir tu tiempo entre el resto de la lista. Un kaiju de farmeo de nivel alto facilita la posterior recolección de células y los nuevos desbloqueos.",
+          "tip": "Después de alcanzar tu objetivo principal de nivel, usa al kaiju de farmeo para financiar tu próximo kaiju de PvP o especialista."
+        }
+      ],
+      "quickTips": [
+        "Elige un kaiju de farmeo y súbelo a un nivel alto antes de dividir tu tiempo entre el resto de la lista.",
+        "Las habilidades de área amplia superan a los movimientos de un solo objetivo al destruir edificios.",
+        "Mantén una habilidad fuera de tiempo de recarga para tener siempre una respuesta para el siguiente grupo.",
+        "Una ruta repetida es mejor que deambular: regresa cuando los edificios reaparezcan."
+      ]
+    },
+    "kaijuAlphaControlsAndCombatGuide": {
+      "title": "Guía de combate y controles de Kaiju Alpha",
+      "intro": "Kaiju Alpha utiliza cinco ranuras de habilidades numeradas y dos habilidades de rugido distintas. El juego de alto nivel depende del posicionamiento, de elegir el orden correcto de las habilidades y de mantener suficiente estamina disponible para moverse después de atacar.",
+      "controls": [
+        {
+          "input": "W / A / S / D",
+          "action": "Mueve a tu kaiju",
+          "bestUse": "Acercarse a los enemigos, retirarse y rodear los ataques.",
+          "combatTip": "Muévete en diagonal en lugar de caminar directamente hacia los ataques a distancia."
+        },
+        {
+          "input": "Ratón",
+          "action": "Controla la cámara y apunta",
+          "bestUse": "Rastrear oponentes en movimiento, voladores o nadadores.",
+          "combatTip": "Mantén al enemigo cerca del centro de la pantalla antes de activar una habilidad direccional."
+        },
+        {
+          "input": "1",
+          "action": "Activar habilidad 1",
+          "bestUse": "Por lo general, el primer movimiento o el más frecuente en el repertorio de un kaiju.",
+          "combatTip": "Usa habilidades de enfriamiento más corto para presionar a los oponentes sin gastar todas tus habilidades a la vez."
+        },
+        {
+          "input": "2",
+          "action": "Activar habilidad 2",
+          "bestUse": "Ataques de seguimiento, herramientas de movimiento o presión a corta distancia según el kaiju.",
+          "combatTip": "Confirma que el primer ataque conecte antes de comprometerte con la siguiente habilidad."
+        },
+        {
+          "input": "3",
+          "action": "Activar habilidad 3",
+          "bestUse": "Daño a mitad de combo, control o presión a distancia.",
+          "combatTip": "Guarda las habilidades de control para los enemigos que intenten escapar o iniciar un ataque importante."
+        },
+        {
+          "input": "4",
+          "action": "Activar Habilidad 4",
+          "bestUse": "Ataques más fuertes con animaciones o tiempos de recarga más largos.",
+          "combatTip": "Usa habilidades de alto compromiso después de que el oponente falle o quede atrapado en una animación."
+        },
+        {
+          "input": "5",
+          "action": "Activar Habilidad 5",
+          "bestUse": "La última casilla de habilidad de un kaiju, comúnmente reservada para un ataque importante o una habilidad insignia.",
+          "combatTip": "No comiences todos los combates con la Habilidad 5; primero crea una oportunidad clara de acierto."
+        },
+        {
+          "input": "R",
+          "action": "Activar Rugido 1",
+          "bestUse": "Efectos de rugido específicos de kaiju y utilidad en combate.",
+          "combatTip": "Averigua si el primer rugido de tu kaiju seleccionado es ofensivo, defensivo o si se usa para crear espacio."
+        },
+        {
+          "input": "T",
+          "action": "Activar Rugido 2",
+          "bestUse": "La segunda habilidad de rugido específica de kaiju.",
+          "combatTip": "Mantén un rugido disponible cuando luches contra varios jugadores o cuando un oponente comience un combo completo."
+        },
+        {
+          "input": "Gestión de resistencia",
+          "action": "Conservar recursos de movimiento y ataque",
+          "bestUse": "Combates largos y escapar tras fallar una habilidad.",
+          "combatTip": "Deja de atacar antes de que la barra de recursos se vacíe para poder reposicionarte en lugar de convertirte en un blanco fácil."
+        },
+        {
+          "input": "Posicionamiento PvP",
+          "action": "Controlar la distancia y los ángulos de ataque",
+          "bestUse": "Evitar intercambios predecibles y ataques grupales.",
+          "combatTip": "Lucha cerca de terreno abierto, mantén a los grupos frente a ti y evita quedar atrapado entre un kaiju y un edificio."
+        }
+      ]
+    },
+    "kaijuAlphaUnlockRequirements": {
+      "title": "Requisitos de desbloqueo de Kaiju Alpha",
+      "intro": "Kaiju Alpha mezcla compras directas de Células con requisitos de nivel, formas de prerrequisito y objetivos del mapa. Monster Zero tiene una de las rutas de desbloqueo especial más claras, requiriendo diez calaveras coleccionables distribuidas por el mapa del mundo.",
+      "unlocks": [
+        {
+          "name": "Monster Zero",
+          "requirement": "Recolecta las 10 calaveras de Monster Zero distribuidas por el mapa.",
+          "steps": [
+            "Entra al mundo principal y usa un kaiju móvil o volador para reducir el tiempo de viaje.",
+            "Busca en cada punto de referencia con cuidado porque varias calaveras están ubicadas dentro de cuevas, detrás del terreno o al lado de estructuras.",
+            "Recolecta todas las calaveras antes de volver a la interfaz de selección y desbloqueo de kaijus.",
+            "Completa cualquier compra de Células o acción de reclamo que aparezca después de finalizar el requisito de recolección."
+          ],
+          "landmarks": [
+            "Reactor de Tokyo",
+            "Cueva de Antarctica",
+            "Abismo submarino detrás de Tokyo",
+            "Montaña de Hong Kong",
+            "Astillero de Tokyo",
+            "Lago de Skull Island"
+          ],
+          "tip": "Termina la ruta en un recorrido organizado por el mapa y registra cada ubicación recolectada para evitar volver a visitar regiones lejanas."
+        },
+        {
+          "name": "Lista de control de calaveras de Monster Zero",
+          "requirement": "Se requieren diez recolecciones de calaveras únicas; recolectar en la misma área de nuevo no reemplaza una ubicación faltante.",
+          "steps": [
+            "Revisa primero las montañas elevadas y las zonas de edificios con un kaiju volador.",
+            "Busca en puntos de interés submarinos con un kaiju que pueda desplazarse eficientemente por el agua.",
+            "Inspecciona el interior de las cuevas, las costas y la parte trasera de las grandes estructuras del mapa.",
+            "Abre la pantalla de desbloqueo tras la décima recolección para confirmar que se ha completado."
+          ],
+          "tip": "Utiliza primero las ubicaciones de Tokio, luego viaja por Hong Kong, la Antártida y la Isla Calavera para reducir los retrocesos."
+        },
+        {
+          "name": "Kaiju comprados con Células",
+          "requirement": "Gana la cantidad de Células que aparece en la entrada del registro.",
+          "steps": [
+            "Lucha contra otros kaiju y continúa con la progresión normal para aumentar tu saldo de Células.",
+            "Abre el registro de kaiju y selecciona el personaje que deseas desbloquear.",
+            "Comprueba si la entrada requiere solo Células o si también indica un kaiju como requisito previo.",
+            "Compra el kaiju después de que se cumpla cada condición mostrada."
+          ],
+          "tip": "Ahorra Células para un objetivo de progresión fuerte en lugar de comprar varios personajes de baja prioridad a la vez."
+        },
+        {
+          "name": "Formas limitadas por nivel",
+          "requirement": "Alcanza el nivel requerido en el kaiju previo indicado y completa el requisito de Células mostrado.",
+          "steps": [
+            "Posee el kaiju base o la forma anterior que se muestra en el panel de requisitos.",
+            "Sube de nivel a ese kaiju mediante batallas regulares y actividad en el mapa.",
+            "Regresa al registro cuando alcances el nivel requerido.",
+            "Compra o reclama la forma avanzada a través de su entrada en el registro."
+          ],
+          "tip": "Sube de nivel la forma previa exacta que indica el juego; el progreso en una versión diferente del mismo kaiju no cuenta."
+        },
+        {
+          "name": "Formas por objetivos y coleccionables",
+          "requirement": "Completa la tarea del mapa, la búsqueda de coleccionables o el objetivo especial indicado para el personaje.",
+          "steps": [
+            "Lee cada línea de los requisitos del registro antes de comenzar la ruta.",
+            "Elige un kaiju adecuado para el terreno requerido, como uno volador para montañas o uno nadador para zonas submarinas.",
+            "Completa todos los contadores de objetivos antes de abandonar el servidor.",
+            "Regresa al registro para finalizar el desbloqueo."
+          ],
+          "tip": "Las rutas de coleccionables son más rápidas en un servidor con poca población donde es menos probable que el combate interrumpa el viaje."
+        }
+      ]
+    },
+    "kaijuAlphaLimitBreakAndUpgrades": {
+      "title": "Limit Break y mejoras de Kaiju Alpha",
+      "intro": "Limit Break es el sistema de inversión avanzada de Kaiju Alpha para jugadores que han terminado la fase de nivelación normal. Elimina el límite de progresión estándar para un kaiju seleccionado y abre un periodo de juego mucho más largo tras alcanzar el límite.",
+      "upgrades": [
+        {
+          "name": "Alcanza el límite de nivel normal",
+          "stage": "Preparación",
+          "requirement": "Termina la ruta de nivelación normal para el kaiju que planeas mejorar.",
+          "benefit": "Hace que el kaiju sea elegible para su siguiente paso de progresión.",
+          "priority": "Requerido",
+          "advice": "Elige un kaiju principal y termina sus niveles antes de dividir el tiempo de juego entre el registro."
+        },
+        {
+          "name": "Compra de Limit Break",
+          "stage": "Desbloqueo",
+          "requirement": "Usa la opción Limit Break que se muestra en la interfaz de progresión del kaiju seleccionado y paga el coste indicado.",
+          "benefit": "Elimina la restricción de nivel normal y abre la progresión posterior al límite.",
+          "priority": "Alto",
+          "advice": "Trata el Limit Break como una inversión importante de Células y cómpralo primero para un kaiju que uses habitualmente."
+        },
+        {
+          "name": "Nivel más allá del límite normal",
+          "stage": "Post-límite",
+          "requirement": "Sigue ganando experiencia con el kaiju con Limit Break.",
+          "benefit": "Proporciona progresión adicional a largo plazo más allá del rango de nivel estándar de la plantilla.",
+          "priority": "Alto",
+          "advice": "Usa un kaiju con ataques confiables y buena supervivencia para que una mayor parte de cada sesión produzca experiencia útil."
+        },
+        {
+          "name": "Objetivo de nivel 200",
+          "stage": "Endgame",
+          "requirement": "Completa la ruta de nivelación extendida post-Limit Break.",
+          "benefit": "Alcanza el nivel avanzado demostrado por kaijus completamente desarrollados como SpaceGodzilla de nivel 200.",
+          "priority": "A largo plazo",
+          "advice": "Espera que esta etapa requiera batallas repetidas en lugar de un único objetivo de desbloqueo."
+        },
+        {
+          "name": "Farmeo de experiencia eficiente",
+          "stage": "Subida de nivel",
+          "requirement": "Mantente activo en las peleas, acierta habilidades de manera constante y evita muertes tempranas repetidas.",
+          "benefit": "Mejora la cantidad de progresión útil ganada durante cada sesión.",
+          "priority": "Alto",
+          "advice": "El daño confiable y la supervivencia son más útiles para subir de nivel que intentar repetidamente ataques lentos que rara vez conectan."
+        },
+        {
+          "name": "Primera opción de inversión",
+          "stage": "Planificación",
+          "requirement": "Compara tus kaijus más usados para PvP, farmeo y eventos antes de gastar recursos.",
+          "benefit": "Evita que las mejoras costosas queden bloqueadas en un personaje que rara vez juegas.",
+          "priority": "Recomendado",
+          "advice": "Realiza el Limit Break a tu kaiju principal multipropósito primero, luego mejora los personajes especializados después de completar el primer farmeo."
+        }
+      ]
+    },
+    "kaijuAlphaUpdatesAndNewKaiju": {
+      "title": "Actualizaciones de Kaiju Alpha y nuevos kaijus",
+      "intro": "Las actualizaciones de Kaiju Alpha rotan con frecuencia el título de la experiencia en vivo y añaden nuevos monstruos jugables. La secuencia reciente ha introducido a Final Wars Godzilla, Showa Jet Jaguar, Godzilla Aquatilis y Titanus Doug, manteniendo el diseño de control estándar de cinco habilidades y dos rugidos.",
+      "updates": [
+        {
+          "update": "Actualización 38",
+          "headline": "Final Wars Godzilla",
+          "status": "En vivo",
+          "changes": [
+            "Final Wars Godzilla se convirtió en el kaiju principal en la experiencia en vivo de Roblox.",
+            "La plantilla sigue utilizando cinco ranuras de habilidades asignadas a las teclas del 1 al 5.",
+            "Las habilidades de rugido siguen asignadas a R y T."
+          ]
+        },
+        {
+          "update": "Actualización 37",
+          "headline": "Showa Jet Jaguar",
+          "status": "Lanzado",
+          "changes": [
+            "Se añadió a Showa Jet Jaguar como un kaiju jugable.",
+            "Showa Jet Jaguar utiliza la estructura de control actual de cinco habilidades y dos rugidos.",
+            "La experiencia de prueba contó anteriormente con Jet Jaguar antes del lanzamiento en vivo."
+          ]
+        },
+        {
+          "update": "Actualización 36",
+          "headline": "Godzilla Aquatilis",
+          "status": "Lanzado",
+          "changes": [
+            "Se añadió a Godzilla Aquatilis.",
+            "La actualización introdujo un conjunto completo de cinco habilidades para el kaiju acuático.",
+            "Sus ataques listados incluían Aquatic Chomp, Tsunami Twirl, Parting of the Red Sea y Piscivore Nudge."
+          ]
+        },
+        {
+          "update": "Actualización 35",
+          "headline": "Titanus Doug",
+          "status": "Lanzado",
+          "changes": [
+            "Se añadió a Titanus Doug a la lista de personajes jugables.",
+            "La actualización mantuvo los controles estándar de las Habilidades 1 a 5 y los Rugidos R y T."
+          ]
+        },
+        {
+          "update": "Actualización 32",
+          "headline": "Cambios de daño de Queen MUTO y G19",
+          "status": "Lanzado",
+          "changes": [
+            "Se añadió a Queen MUTO.",
+            "Se aumentó el daño máximo de las habilidades 2, 3 y 4 de G19 de 250 a 300."
+          ]
+        },
+        {
+          "update": "Actualización de Monster X",
+          "headline": "Monster X",
+          "status": "Lanzado",
+          "changes": [
+            "Se añadió a Monster X a Kaiju Alpha.",
+            "El lanzamiento introdujo un conjunto de movimientos dedicado para Monster X y una demostración de combate."
+          ]
+        },
+        {
+          "update": "Versión de prueba",
+          "headline": "Pruebas de errores y kaijus previos al lanzamiento",
+          "status": "Pruebas",
+          "changes": [
+            "La experiencia Kaiju Alpha TESTING independiente se utiliza para adiciones inacabadas y pruebas de errores.",
+            "Los servidores de prueba pueden reiniciarse mientras se aplican las correcciones.",
+            "Se indica a los jugadores que informen sobre los errores descubiertos a través del servidor de la comunidad."
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Kaiju Alpha",
+    "questions": [
+      {
+        "question": "¿Qué es Kaiju Alpha?",
+        "answer": "Kaiju Alpha es un campo de batalla PvP de monstruos gigantes gratuito en Roblox desarrollado por SULU KAKA, donde los jugadores controlan kaijus, destruyen ciudades, ganan Cells y luchan entre sí."
+      },
+      {
+        "question": "¿Es Kaiju Alpha gratuito?",
+        "answer": "Sí. Kaiju Alpha es gratuito en Roblox para PC, Mac y dispositivos móviles, sin necesidad de realizar compras para unirse a las partidas."
+      },
+      {
+        "question": "¿Qué son las Cells en Kaiju Alpha?",
+        "answer": "Las Cells son la moneda de progresión principal en Kaiju Alpha, que se obtiene destruyendo edificios y luchando. Gastas Cells para desbloquear nuevos kaijus, formas avanzadas y mejoras."
+      },
+      {
+        "question": "¿Cómo desbloqueo nuevos kaijus en Kaiju Alpha?",
+        "answer": "La mayoría de los kaijus en Kaiju Alpha se desbloquean con Cells, mientras que los personajes especiales como Monster Zero requieren completar objetivos del mapa, como recolectar las diez calaveras."
+      },
+      {
+        "question": "¿Cuáles son los controles en Kaiju Alpha?",
+        "answer": "Kaiju Alpha utiliza las teclas 1 a 5 para tus cinco habilidades, R y T para dos rugidos, WASD para moverte y el ratón para apuntar la cámara."
+      },
+      {
+        "question": "¿Con qué frecuencia se actualiza Kaiju Alpha?",
+        "answer": "Las actualizaciones de Kaiju Alpha añaden frecuentemente nuevos kaijus jugables, cambios de equilibrio y contenido probado en una experiencia Kaiju Alpha TESTING independiente antes de lanzarse oficialmente."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para dominar el campo de batalla?",
+    "description": "Juega a Kaiju Alpha en Roblox, únete a la comunidad de monstruos en Reddit y domina a cada kaiju con nuestras guías detalladas y listas de niveles.",
+    "joinCommunity": "Únete a la comunidad",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Kaiju Alpha",
+    "description": "Tu centro de recursos completo para las listas de niveles de Kaiju Alpha, habilidades de kaijus, farmeo de U-cells, controles, guías de desbloqueo y notas de actualización.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "robloxCommunity": "Comunidad de Roblox",
+    "roblox": "Jugar en Roblox",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Kaiju Alpha Wiki. No afiliado con SULU KAKA ni con los desarrolladores de Kaiju Alpha.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Kaiju Alpha",
+      "description": "Sigue el estado de cada código de Kaiju Alpha (activos, expirados y dónde canjearlos) sin mezclar los registros de actualización.",
+      "metaTitle": "Códigos de Kaiju Alpha - Estado de códigos activos y expirados",
+      "metaDescription": "Consulta el estado actual de cada código de Kaiju Alpha. Mira qué códigos están activos, cuáles han expirado y dónde se canjea cada uno.",
+      "categoryLabel": "CÓDIGOS",
+      "whatIs": "¿Qué son los códigos?",
+      "whatIsDescription": "Los códigos en Kaiju Alpha son cadenas canjeables que otorgan recompensas gratuitas como U-cells y G-cells una vez que el juego añade una opción de canje. Esta sección realiza un seguimiento del estado de cada código, dónde se canjean y un registro de cada código que ya ha expirado.",
+      "why": "¿Por qué consultar el estado de los códigos aquí?",
+      "whySteps": {
+        "step1Title": "Estado real, sin recompensas falsas",
+        "step1Description": "Cuando no hay ningún código activo, la página lo indica claramente. No encontrarás códigos inventados ni recompensas falsas listadas aquí.",
+        "step2Title": "Opción de canje clara",
+        "step2Description": "Tan pronto como el desarrollador añada una opción de canje en el juego, se documentará el lugar exacto para ingresar los códigos y los pasos para reclamarlos.",
+        "step3Title": "Registro de expiración",
+        "step3Description": "Cada código que ha expirado se registra con su última fecha de funcionamiento, por lo que es fácil distinguir un código inactivo de uno activo."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guía de Kaiju Alpha",
+      "description": "Explora las elecciones del inicio del juego de Kaiju Alpha, las rutas de progresión y las opciones para el primer kaiju sin revelar spoilers de la clasificación de poder completa.",
+      "metaTitle": "Guía de Kaiju Alpha - Consejos para principiantes y rutas de progresión",
+      "metaDescription": "Empieza Kaiju Alpha de la manera correcta: primer kaiju a comprar, estrategia para la partida inicial, flujo de nivelación, conceptos básicos del choque de rayos y errores comunes de principiantes.",
+      "categoryLabel": "GUÍA",
+      "whatIs": "---",
+      "whatIsDescription": "¿Qué es la guía de Kaiju Alpha?",
+      "why": "La guía de Kaiju Alpha cubre las decisiones que definen tus primeras horas de juego: qué kaiju inicial elegir, cómo se desarrollan las primeras partidas, el primer kaiju que vale la pena comprar, cómo subir de nivel rápido y los errores que retrasan a los nuevos jugadores. Se centra en el progreso inicial más que en una clasificación de niveles completa.",
+      "whySteps": {
+        "step1Title": "¿Por qué leer la guía para principiantes?",
+        "step1Description": "El kaiju inicial correcto",
+        "step2Title": "Elegir un inicial que se adapte a tu estilo de juego ahorra tiempo y células, ya que no necesitarás hacer reroll ni volver a comprar un monstruo inicial.",
+        "step2Description": "Primeras partidas eficientes",
+        "step3Title": "La estrategia para las partidas iniciales muestra cómo ganar U-cells y subir de nivel rápido sin gastar recursos iniciales en los objetivos equivocados.",
+        "step3Description": "Evita errores comunes"
+      },
+      "featured": "Se detallan las trampas para jugadores nuevos, como arriesgarse demasiado en peleas multitudinarias o ignorar la carga de voltaje, para que las evites desde la primera partida.",
+      "all": "Destacado y Esencial"
+    },
+    "rankings": {
+      "title": "Todas las Guías",
+      "description": "Clasificaciones de Kaiju Alpha",
+      "metaTitle": "Compara cada kaiju de Kaiju Alpha en PvP, velocidad de farmeo de células y facilidad de juego con un razonamiento claro de niveles basado en roles.",
+      "metaDescription": "Tier List de Kaiju Alpha - Los mejores kaiju para PvP y farmeo",
+      "categoryLabel": "Consulta la Tier List actual de Kaiju Alpha con clasificaciones de S a D para combate PvP, farmeo de células y facilidad para principiantes, con cada kaiju evaluado por su rol.",
+      "whatIs": "RANKINGS",
+      "whatIsDescription": "¿Qué son las clasificaciones?",
+      "why": "Las clasificaciones reorganizan la lista completa de kaiju por rendimiento en lugar de historia. Cada kaiju es puntuado por su fuerza en PvP, velocidad de farmeo de células y qué tan exigente es jugarlo, para que puedas elegir según lo que quieras hacer en lugar del precio o la apariencia.",
+      "whySteps": {
+        "step1Title": "¿Por qué usar la Tier List?",
+        "step1Description": "Calificaciones centradas en PvP",
+        "step2Title": "Los kaiju que ganan batallas multitudinarias e intercambian daño de forma equilibrada ocupan los puestos más altos en PvP, para que los jugadores competitivos sepan a quién elegir como principal.",
+        "step2Description": "Eficiencia de farmeo",
+        "step3Title": "Las puntuaciones de farmeo separadas muestran qué kaiju recolectan U-cells y G-cells más rápido, ayudándote a invertir en un recolector dedicado.",
+        "step3Description": "Opciones para principiantes"
+      },
+      "featured": "Una calificación de facilidad de juego señala a los kaiju que son sencillos de controlar, para que los nuevos jugadores no se queden atascados con un monstruo de alta dificultad.",
+      "all": "Destacado y Esencial"
+    },
+    "kaijus": {
+      "title": "Todas las Clasificaciones",
+      "description": "Kaiju de Kaiju Alpha",
+      "metaTitle": "Explora cada kaiju de Kaiju Alpha (habilidades, formas, movimiento, precio e historial de versiones) como una referencia sin clasificaciones subjetivas mezcladas.",
+      "metaDescription": "Lista de Kaiju de Kaiju Alpha - Habilidades, Formas y Precios",
+      "categoryLabel": "Busca cualquier kaiju de Kaiju Alpha para conocer sus habilidades de la 1 a la 5, rugidos R y T, tipo de movimiento, precio de desbloqueo y cómo ha cambiado en las actualizaciones.",
+      "whatIs": "KAIJU",
+      "whatIsDescription": "¿Qué es la referencia de kaiju?",
+      "why": "La referencia de kaiju es una enciclopedia de cada monstruo en Kaiju Alpha. Cada entrada documenta las habilidades de la 1 a la 5, las teclas de rugido R y T, cómo se mueve el kaiju, su precio y cómo ha cambiado entre actualizaciones. Se limita a los hechos sobre el personaje en lugar de clasificarlos.",
+      "whySteps": {
+        "step1Title": "¿Por qué usar la referencia de kaiju?",
+        "step1Description": "Desglose completo de habilidades",
+        "step2Title": "Se enumeran las cinco habilidades de cada kaiju, además del rugido y el movimiento, para que conozcas el kit completo de un monstruo antes de comprarlo o elegirlo como principal.",
+        "step2Description": "Información de precio y desbloqueo",
+        "step3Title": "Cada entrada muestra lo que cuesta un kaiju y cómo ha variado su precio, ayudándote a planear para qué monstruo ahorrar células a continuación.",
+        "step3Description": "Los cambios a lo largo de las actualizaciones, como reworks, nerfs y nuevas formas, se registran por kaiju, para que puedas ver cómo evolucionó un monstruo con el tiempo."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los Kaiju"
+    },
+    "unlocks": {
+      "title": "Desbloqueos de Kaiju Alpha",
+      "description": "Encuentra exactamente cómo desbloquear cada kaiju de Kaiju Alpha: pasos de misiones, objetos requeridos y ubicaciones de calaveras, no consejos genéricos de farmeo.",
+      "metaTitle": "Guía de desbloqueo de Kaiju Alpha - Misiones, objetos y ubicaciones de calaveras",
+      "metaDescription": "Sigue las rutas de desbloqueo paso a paso de Kaiju Alpha para kaijus como King Ghidorah y Monster Zero, incluyendo requisitos previos, objetos y puntos de calaveras.",
+      "categoryLabel": "DESBLOQUEOS",
+      "whatIs": "¿Qué son los desbloqueos?",
+      "whatIsDescription": "Los desbloqueos abarcan las condiciones, los objetos de misión y las rutas de recolección necesarias para añadir nuevos kaijus a tu lista. Cada ruta se divide en pasos ordenados, las ubicaciones donde aparecen los objetos, los requisitos previos que debes cumplir primero y los puntos de recolección fáciles de pasar por alto que suelen complicar a los jugadores.",
+      "why": "¿Por qué usar las guías de desbloqueo?",
+      "whySteps": {
+        "step1Title": "Rutas ordenadas paso a paso",
+        "step1Description": "Las rutas de desbloqueo están redactadas como pasos ordenados y claros, para que siempre sepas qué hacer a continuación en lugar de adivinarlo a partir de un video.",
+        "step2Title": "Ubicaciones de objetos y calaveras",
+        "step2Description": "Se indican los puntos de aparición de los objetos de misión y las calaveras, incluidos los puntos de calaveras de Monster Zero, para que no te pierdas nada.",
+        "step3Title": "Requisitos previos por adelantado",
+        "step3Description": "Cada guía detalla lo que debes poseer o completar primero, evitando viajes en vano a zonas para las que aún no estás listo."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los desbloqueos"
+    },
+    "updates": {
+      "title": "Actualizaciones de Kaiju Alpha",
+      "description": "Sigue las actualizaciones de Kaiju Alpha en orden cronológico inverso: nuevos kaijus, cambios de equilibrio, reworks, eventos y fechas de versiones.",
+      "metaDescription": "Explora cada actualización de Kaiju Alpha por versión: nuevos kaijus añadidos, cambios de estadísticas, reworks, eventos y la fecha en que se lanzó cada parche.",
+      "metaTitle": "Actualizaciones de Kaiju Alpha - Nuevos kaijus, equilibrio y notas del parche",
+      "categoryLabel": "ACTUALIZACIONES",
+      "whatIs": "¿Qué hay en la sección de actualizaciones?",
+      "whatIsDescription": "La sección de actualizaciones registra cada versión de Kaiju Alpha en orden cronológico inverso: nuevos kaijus introducidos, cambios de equilibrio y estadísticas, reworks, eventos y la fecha en que el parche se implementó. Registra lo que cambió en cada versión en lugar de volver a describir el elenco completo.",
+      "why": "¿Por qué seguir el registro de actualizaciones?",
+      "whySteps": {
+        "step1Title": "Nuevos kaijus de inmediato",
+        "step1Description": "Cada parche que añade un kaiju está marcado, para que puedas identificar al monstruo más nuevo y su ruta de desbloqueo en el instante en que se lance.",
+        "step2Title": "Equilibrio y reworks",
+        "step2Description": "Los ajustes de estadísticas y los reworks completos se registran por versión, mostrando si un kaiju que posees se volvió más fuerte o más débil.",
+        "step3Title": "Fechas de versiones y eventos",
+        "step3Description": "Cada entrada tiene fecha e incluye eventos de tiempo limitado, para que puedas ubicar cada cambio en una línea de tiempo y planificar en función de los eventos."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las actualizaciones"
+    }
   }
 }
