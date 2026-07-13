@@ -28,6 +28,16 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Kaiju Alpha 首页模块导航图标
+  GraduationCap: LucideIcons.GraduationCap,
+  Trophy: LucideIcons.Trophy,
+  Flame: LucideIcons.Flame,
+  Zap: LucideIcons.Zap,
+  Swords: LucideIcons.Swords,
+  KeyRound: LucideIcons.KeyRound,
+  Rocket: LucideIcons.Rocket,
+  Newspaper: LucideIcons.Newspaper,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
