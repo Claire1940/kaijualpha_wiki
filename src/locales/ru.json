@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "description": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "keywords": "Lucid Blocks, вики Lucid Blocks, крафт, биомы, достижения, выживание, Steam",
-      "ogTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "ogDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "twitterTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "twitterDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
+      "title": "Kaiju Alpha Wiki - Tier List, Kaiju & U-Cell Guide",
+      "description": "Explore Kaiju Alpha tier lists, kaiju abilities, U-cell farming, controls, update notes, beginner tips, and the latest Roblox gameplay guides in one place.",
+      "keywords": "Kaiju Alpha, Roblox, tier list, kaiju, U-cells, controls, updates, beginner guide",
+      "ogTitle": "Kaiju Alpha Wiki - Tier List, Kaiju & U-Cell Guide",
+      "ogDescription": "Explore Kaiju Alpha tier lists, kaiju abilities, U-cell farming, controls, update notes, beginner tips, and the latest Roblox gameplay guides in one place.",
+      "twitterTitle": "Kaiju Alpha Wiki - Tier List, Kaiju & U-Cell Guide",
+      "twitterDescription": "Explore Kaiju Alpha tier lists, kaiju abilities, U-cell farming, controls, and the latest Roblox gameplay guides in one place."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Giant Monster PvP Battleground",
+    "title": "Kaiju Alpha Wiki",
+    "description": "Master giant kaiju, destroy cities, earn U-cells and battle other players. Explore kaiju abilities, unlock requirements, farming routes, controls and every new update.",
+    "getFreeCodesCTA": "Check Code Status",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "54.4M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "8.9K",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "95%",
+        "label": "User Rating"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "16K",
+        "label": "Peak CCU"
       }
     }
   },
@@ -181,27 +181,27 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "title": "Ready to Rule the Battleground?",
+    "description": "Play Kaiju Alpha on Roblox, join the monster community on Reddit, and master every kaiju with our in-depth guides and tier lists.",
+    "joinCommunity": "Join Community",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
-    "resources": "Ресурсы",
-    "community": "Сообщество",
-    "legal": "Юридическая информация",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
-    "about": "О проекте",
-    "privacy": "Политика конфиденциальности",
-    "terms": "Условия использования",
-    "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
+    "title": "Kaiju Alpha Wiki",
+    "description": "Your complete resource hub for Kaiju Alpha tier lists, kaiju abilities, U-cell farming, controls, unlock guides, and update notes.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "robloxCommunity": "Roblox Community",
+    "roblox": "Play on Roblox",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Kaiju Alpha Wiki. Not affiliated with SULU KAKA or the developers of Kaiju Alpha.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

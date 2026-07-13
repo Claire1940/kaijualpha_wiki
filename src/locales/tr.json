@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
+      "title": "Kaiju Alpha Wiki - Tier List, Kaiju & U-Cell Guide",
+      "description": "Explore Kaiju Alpha tier lists, kaiju abilities, U-cell farming, controls, update notes, beginner tips, and the latest Roblox gameplay guides in one place.",
+      "keywords": "Kaiju Alpha, Roblox, tier list, kaiju, U-cells, controls, updates, beginner guide",
+      "ogTitle": "Kaiju Alpha Wiki - Tier List, Kaiju & U-Cell Guide",
+      "ogDescription": "Explore Kaiju Alpha tier lists, kaiju abilities, U-cell farming, controls, update notes, beginner tips, and the latest Roblox gameplay guides in one place.",
+      "twitterTitle": "Kaiju Alpha Wiki - Tier List, Kaiju & U-Cell Guide",
+      "twitterDescription": "Explore Kaiju Alpha tier lists, kaiju abilities, U-cell farming, controls, and the latest Roblox gameplay guides in one place."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Makaleler yakında"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "Giant Monster PvP Battleground",
+    "title": "Kaiju Alpha Wiki",
+    "description": "Master giant kaiju, destroy cities, earn U-cells and battle other players. Explore kaiju abilities, unlock requirements, farming routes, controls and every new update.",
+    "getFreeCodesCTA": "Check Code Status",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "54.4M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "8.9K",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "95%",
+        "label": "User Rating"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "16K",
+        "label": "Peak CCU"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
-    "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "title": "Ready to Rule the Battleground?",
+    "description": "Play Kaiju Alpha on Roblox, join the monster community on Reddit, and master every kaiju with our in-depth guides and tier lists.",
+    "joinCommunity": "Join Community",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
-    "resources": "Kaynaklar",
-    "community": "Topluluk",
-    "legal": "Yasal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
-    "steamStore": "Steam Mağazası",
-    "about": "Hakkında",
-    "privacy": "Gizlilik Politikası",
-    "terms": "Hizmet Şartları",
-    "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
+    "title": "Kaiju Alpha Wiki",
+    "description": "Your complete resource hub for Kaiju Alpha tier lists, kaiju abilities, U-cell farming, controls, unlock guides, and update notes.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "robloxCommunity": "Roblox Community",
+    "roblox": "Play on Roblox",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Kaiju Alpha Wiki. Not affiliated with SULU KAKA or the developers of Kaiju Alpha.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {
