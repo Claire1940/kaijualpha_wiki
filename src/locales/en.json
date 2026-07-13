@@ -10,7 +10,14 @@
       "twitterDescription": "Explore Kaiju Alpha tier lists, kaiju abilities, U-cell farming, controls, and the latest Roblox gameplay guides in one place."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "rankings": "Rankings",
+    "kaijus": "Kaijus",
+    "unlocks": "Unlocks",
+    "updates": "Updates"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -243,70 +250,120 @@
           "name": "Final Wars Godzilla",
           "combatRole": "Heavy all-rounder",
           "attackStyle": "Melee chains and ranged atomic pressure.",
-          "abilityFocus": ["Close-range combos", "Atomic attacks", "High-impact finishers", "Two roar actions"],
+          "abilityFocus": [
+            "Close-range combos",
+            "Atomic attacks",
+            "High-impact finishers",
+            "Two roar actions"
+          ],
           "bestUse": "Players who want one kaiju for both PvP and general farming."
         },
         {
           "name": "Showa Jet Jaguar",
           "combatRole": "Mobile melee fighter",
           "attackStyle": "Fast physical attacks and aerial repositioning.",
-          "abilityFocus": ["Martial-arts attacks", "High movement speed", "Flight and repositioning", "Two roar actions"],
+          "abilityFocus": [
+            "Martial-arts attacks",
+            "High movement speed",
+            "Flight and repositioning",
+            "Two roar actions"
+          ],
           "bestUse": "Chasing slower targets and avoiding heavy attacks."
         },
         {
           "name": "Destoroyah Final Form",
           "combatRole": "Burst damage fighter",
           "attackStyle": "Powerful close-range attacks with energy-based pressure.",
-          "abilityFocus": ["Heavy melee damage", "Energy attacks", "Finishing pressure", "Durable combat presence"],
+          "abilityFocus": [
+            "Heavy melee damage",
+            "Energy attacks",
+            "Finishing pressure",
+            "Durable combat presence"
+          ],
           "bestUse": "Aggressive fights where enemies cannot maintain distance."
         },
         {
           "name": "Monster X",
           "combatRole": "Combo duelist",
           "attackStyle": "Quick melee strings supported by ranged energy attacks.",
-          "abilityFocus": ["Fast combos", "Energy projectiles", "Target pursuit", "Punish attacks"],
+          "abilityFocus": [
+            "Fast combos",
+            "Energy projectiles",
+            "Target pursuit",
+            "Punish attacks"
+          ],
           "bestUse": "One-on-one combat and catching retreating players."
         },
         {
           "name": "Godzilla 2019",
           "combatRole": "Durable beam brawler",
           "attackStyle": "Atomic breath combined with body and tail attacks.",
-          "abilityFocus": ["Atomic breath", "Physical strikes", "Sustained damage", "Defensive durability"],
+          "abilityFocus": [
+            "Atomic breath",
+            "Physical strikes",
+            "Sustained damage",
+            "Defensive durability"
+          ],
           "bestUse": "Long fights and balanced progression."
         },
         {
           "name": "Biollante",
           "combatRole": "Area-control farmer",
           "attackStyle": "Wide plant-based attacks that cover multiple targets.",
-          "abilityFocus": ["Large attack radius", "Tendril attacks", "Grouped-target damage", "Space control"],
+          "abilityFocus": [
+            "Large attack radius",
+            "Tendril attacks",
+            "Grouped-target damage",
+            "Space control"
+          ],
           "bestUse": "Destroying building clusters and controlling crowded areas."
         },
         {
           "name": "Kamata-Kun",
           "combatRole": "Ranged beginner kaiju",
           "attackStyle": "Forward area attacks and ranged harassment.",
-          "abilityFocus": ["Ranged pressure", "Area damage", "Kiting close-range enemies", "Simple farming rotation"],
+          "abilityFocus": [
+            "Ranged pressure",
+            "Area damage",
+            "Kiting close-range enemies",
+            "Simple farming rotation"
+          ],
           "bestUse": "New players learning spacing and cooldown management."
         },
         {
           "name": "Suko",
           "combatRole": "Fast progression kaiju",
           "attackStyle": "Mobile close-range attacks.",
-          "abilityFocus": ["Quick movement", "Repeated melee pressure", "Fast target rotation", "Low-complexity combat"],
+          "abilityFocus": [
+            "Quick movement",
+            "Repeated melee pressure",
+            "Fast target rotation",
+            "Low-complexity combat"
+          ],
           "bestUse": "Early farming routes and learning movement."
         },
         {
           "name": "Kong",
           "combatRole": "Physical bruiser",
           "attackStyle": "Punches and direct close-range pressure.",
-          "abilityFocus": ["Heavy physical strikes", "Melee combos", "Target pursuit", "Close-range punishment"],
+          "abilityFocus": [
+            "Heavy physical strikes",
+            "Melee combos",
+            "Target pursuit",
+            "Close-range punishment"
+          ],
           "bestUse": "Players who prefer direct brawling."
         },
         {
           "name": "Godzilla Junior",
           "combatRole": "Beginner beam fighter",
           "attackStyle": "Balanced physical attacks and atomic damage.",
-          "abilityFocus": ["Atomic attack", "Basic melee skills", "Straightforward rotation", "Reliable farming damage"],
+          "abilityFocus": [
+            "Atomic attack",
+            "Basic melee skills",
+            "Straightforward rotation",
+            "Reliable farming damage"
+          ],
           "bestUse": "Earning early Cells before purchasing a specialized farmer."
         }
       ]
@@ -443,7 +500,14 @@
             "Collect every skull before returning to the kaiju selection and unlock interface.",
             "Complete any Cell purchase or claim action displayed after the collection requirement is finished."
           ],
-          "landmarks": ["Tokyo reactor", "Antarctica cave", "Underwater chasm behind Tokyo", "Hong Kong mountain", "Tokyo shipyard", "Skull Island lake"],
+          "landmarks": [
+            "Tokyo reactor",
+            "Antarctica cave",
+            "Underwater chasm behind Tokyo",
+            "Hong Kong mountain",
+            "Tokyo shipyard",
+            "Skull Island lake"
+          ],
           "tip": "Finish the route in one organized map sweep and record each collected location to avoid revisiting distant regions."
         },
         {
@@ -675,61 +739,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "beginner-guide": {
-      "title": "Kaiju Alpha Beginner Guide",
-      "description": "Start Kaiju Alpha with the right starter kaiju, core controls and a safe early progression route.",
-      "metaTitle": "Kaiju Alpha Beginner Guide - Starter Kaiju and Early Route",
-      "metaDescription": "Learn how to start Kaiju Alpha: choose a beginner-friendly kaiju, master the controls, farm Cells and avoid common early mistakes.",
-      "categoryLabel": "BEGINNER GUIDE"
+    "codes": {
+      "title": "Kaiju Alpha Codes",
+      "description": "Track every Kaiju Alpha code status — active, expired, and where to redeem them — without mixing in update logs.",
+      "metaTitle": "Kaiju Alpha Codes - Active & Expired Code Status",
+      "metaDescription": "Check the current status of every Kaiju Alpha code. See which codes are active, which have expired, and where each one is redeemed.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Codes in Kaiju Alpha are redeemable strings that grant free rewards like U-cells and G-cells once the game adds a redemption entry. This section tracks each code's status, where codes are redeemed, and a record of every code that has already expired.",
+      "why": "Why check code status here?",
+      "whySteps": {
+        "step1Title": "Real status, no fake rewards",
+        "step1Description": "When no active code exists the page says so plainly. You will not find invented codes or made-up rewards listed here.",
+        "step2Title": "Clear redemption entry",
+        "step2Description": "As soon as the developer adds an in-game redemption option, the exact place to enter codes and the steps to claim them are documented.",
+        "step3Title": "Expiration record",
+        "step3Description": "Every code that has expired is logged with its last working date, so a dead code is easy to tell apart from a live one."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
     },
-    "tier-list": {
-      "title": "Kaiju Alpha Tier List",
-      "description": "Rank every Kaiju Alpha kaiju for PvP, farming and survivability with clear reasoning.",
-      "metaTitle": "Kaiju Alpha Tier List - Best Kaiju for PvP and Farming",
-      "metaDescription": "Compare the best Kaiju Alpha kaiju across PvP, farming and survival roles with detailed strengths, weaknesses and best-use notes.",
-      "categoryLabel": "TIER LIST"
+    "guide": {
+      "title": "Kaiju Alpha Guide",
+      "description": "Walk through Kaiju Alpha's early-game choices, progression routes, and first-kaiju picks without spoiling the full power ranking.",
+      "metaTitle": "Kaiju Alpha Guide - Beginner Tips & Progression Routes",
+      "metaDescription": "Start Kaiju Alpha the right way: first kaiju to buy, opening-match strategy, leveling flow, beam clash basics, and common beginner mistakes.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is the Kaiju Alpha guide?",
+      "whatIsDescription": "The Kaiju Alpha guide covers the decisions that shape your first hours of play: which starter kaiju to pick, how the opening matches play out, the first kaiju worth buying, how to level up fast, and the mistakes that slow new players down. It stays focused on early progression rather than a complete tier ranking.",
+      "why": "Why read the beginner guide?",
+      "whySteps": {
+        "step1Title": "Right starter kaiju",
+        "step1Description": "Picking a starter that matches your playstyle saves time and cells, since you will not need to reroll or rebuy an early monster.",
+        "step2Title": "Efficient first matches",
+        "step2Description": "The opening-match strategy shows how to earn U-cells and level up fast without spending early resources on the wrong targets.",
+        "step3Title": "Avoid common mistakes",
+        "step3Description": "New-player pitfalls like overcommitting in crowded fights or ignoring voltage charge are laid out so you sidestep them from match one."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
     },
-    "kaiju-abilities": {
-      "title": "Kaiju Alpha Kaiju and Abilities",
-      "description": "Browse every Kaiju Alpha kaiju with skills, roars, attack style and combat role.",
-      "metaTitle": "Kaiju Alpha Kaiju and Abilities - Full Roster Guide",
-      "metaDescription": "Explore the full Kaiju Alpha kaiju roster with abilities, attack styles, combat roles and best use cases for each monster.",
-      "categoryLabel": "KAIJU ROSTER"
+    "rankings": {
+      "title": "Kaiju Alpha Rankings",
+      "description": "Compare every Kaiju Alpha kaiju across PvP, cell-farming speed, and ease of play with clear, role-based tier reasoning.",
+      "metaTitle": "Kaiju Alpha Tier List - Best Kaiju for PvP & Farming",
+      "metaDescription": "See the current Kaiju Alpha tier list with S to D rankings for PvP combat, cell farming, and beginner-friendliness, each kaiju rated by role.",
+      "categoryLabel": "RANKINGS",
+      "whatIs": "What are the rankings?",
+      "whatIsDescription": "Rankings reorganize the full kaiju roster by performance instead of lore. Each kaiju is scored for PvP strength, cell-farming speed, and how demanding it is to play, so you can choose based on what you want to do rather than price or looks.",
+      "why": "Why use the tier list?",
+      "whySteps": {
+        "step1Title": "PvP-focused ratings",
+        "step1Description": "Kaiju that win crowded battles and trade evenly rank highest for PvP, so competitive players know who to main.",
+        "step2Title": "Farming efficiency",
+        "step2Description": "Separate farming scores show which kaiju grind U-cells and G-cells fastest, helping you invest in a dedicated farmer.",
+        "step3Title": "Beginner-friendly picks",
+        "step3Description": "An ease-of-play rating flags kaiju that are simple to control, so new players do not get stuck on a high-skill monster."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Rankings"
     },
-    "leveling-cell-farming": {
-      "title": "Kaiju Alpha Leveling and Cell Farming",
-      "description": "Farm Cells and experience faster with efficient Kaiju Alpha routes and skill rotations.",
-      "metaTitle": "Kaiju Alpha Leveling Guide - Fast Cell Farming Routes",
-      "metaDescription": "Level up faster in Kaiju Alpha with efficient Cell farming routes, wide-area skill rotations and leveling targets toward level 200.",
-      "categoryLabel": "LEVELING GUIDE"
+    "kaijus": {
+      "title": "Kaiju Alpha Kaiju",
+      "description": "Browse every Kaiju Alpha kaiju — abilities, forms, movement, price, and version history — as a reference with no subjective ranking mixed in.",
+      "metaTitle": "Kaiju Alpha Kaiju List - Abilities, Forms & Prices",
+      "metaDescription": "Look up any Kaiju Alpha kaiju for its skill 1 to 5, R and T roars, movement type, unlock price, and how it changed across updates.",
+      "categoryLabel": "KAIJU",
+      "whatIs": "What is the kaiju reference?",
+      "whatIsDescription": "The kaiju reference is an encyclopedia of every monster in Kaiju Alpha. Each entry documents abilities 1 to 5, the R and T roar keys, how the kaiju moves, its price, and how it has shifted between updates. It sticks to facts about the character rather than ranking them.",
+      "why": "Why use the kaiju reference?",
+      "whySteps": {
+        "step1Title": "Full ability breakdown",
+        "step1Description": "Every kaiju's five abilities plus roar and movement are listed, so you know a monster's full kit before buying or maining it.",
+        "step2Title": "Price and unlock info",
+        "step2Description": "Each entry shows what a kaiju costs and how its price has moved, helping you plan which monster to save cells for next.",
+        "step3Title": "Version history",
+        "step3Description": "Changes across updates like reworks, nerfs, and new forms are recorded per kaiju, so you can see how a monster evolved over time."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Kaiju"
     },
-    "controls-and-combat-guide": {
-      "title": "Kaiju Alpha Controls and Combat",
-      "description": "Master the Kaiju Alpha keyboard layout, skill timing and PvP positioning basics.",
-      "metaTitle": "Kaiju Alpha Controls Guide - Skills, Roars and PvP",
-      "metaDescription": "Learn every Kaiju Alpha control including skills 1 to 5, roars R and T, movement, camera, stamina management and PvP positioning tips.",
-      "categoryLabel": "CONTROLS GUIDE"
+    "unlocks": {
+      "title": "Kaiju Alpha Unlocks",
+      "description": "Find exactly how to unlock each Kaiju Alpha kaiju — quest steps, required items, and skull locations — not generic farming tips.",
+      "metaTitle": "Kaiju Alpha Unlock Guide - Quests, Items & Skull Locations",
+      "metaDescription": "Follow step-by-step Kaiju Alpha unlock routes for kaiju like King Ghidorah and Monster Zero, including prerequisites, items, and skull spots.",
+      "categoryLabel": "UNLOCKS",
+      "whatIs": "What are unlocks?",
+      "whatIsDescription": "Unlocks cover the conditions, quest items, and collection routes needed to add new kaiju to your roster. Each route is broken into ordered steps, the locations where items spawn, the prerequisites you must meet first, and the easy-to-miss collection points that trip players up.",
+      "why": "Why use the unlock guides?",
+      "whySteps": {
+        "step1Title": "Ordered, step-by-step routes",
+        "step1Description": "Unlock paths are rewritten as clear ordered steps, so you always know what to do next instead of guessing from a video.",
+        "step2Title": "Item and skull locations",
+        "step2Description": "Spawn points for quest items and skulls, including Monster Zero skull spots, are called out so nothing gets missed.",
+        "step3Title": "Prerequisites upfront",
+        "step3Description": "Each guide lists what you must own or complete first, preventing wasted trips to an area you are not ready for."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Unlocks"
     },
-    "unlock-requirements": {
-      "title": "Kaiju Alpha Unlock Requirements",
-      "description": "Unlock special Kaiju Alpha kaiju and forms through Cells, levels and map objectives.",
-      "metaTitle": "Kaiju Alpha Unlock Guide - Monster Zero Skulls and More",
-      "metaDescription": "Complete Kaiju Alpha unlock requirements including Monster Zero skull locations, Cell purchases, level-gated forms and collectible routes.",
-      "categoryLabel": "UNLOCK GUIDE"
-    },
-    "limit-break-and-upgrades": {
-      "title": "Kaiju Alpha Limit Break and Upgrades",
-      "description": "Push a favourite Kaiju Alpha kaiju past the cap and invest in long-term upgrades.",
-      "metaTitle": "Kaiju Alpha Limit Break Guide - Post-Cap Upgrades",
-      "metaDescription": "Understand Kaiju Alpha Limit Break, post-cap leveling toward level 200 and which kaiju to upgrade first for long-term value.",
-      "categoryLabel": "LIMIT BREAK"
-    },
-    "updates-and-new-kaiju": {
-      "title": "Kaiju Alpha Updates and New Kaiju",
-      "description": "Track new Kaiju Alpha kaiju, balance changes and content moving through testing.",
-      "metaTitle": "Kaiju Alpha Updates - New Kaiju and Patch Notes",
-      "metaDescription": "Follow the latest Kaiju Alpha updates including new kaiju releases, balance changes, damage adjustments and testing build notes.",
-      "categoryLabel": "UPDATE TRACKER"
+    "updates": {
+      "title": "Kaiju Alpha Updates",
+      "description": "Track Kaiju Alpha updates in reverse-chronological order — new kaiju, balance changes, reworks, events, and version dates.",
+      "metaDescription": "Browse every Kaiju Alpha update by version: new kaiju added, stat changes, reworks, events, and the date each patch shipped.",
+      "metaTitle": "Kaiju Alpha Updates - New Kaiju, Balance & Patch Notes",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What is in the updates section?",
+      "whatIsDescription": "The updates section logs each Kaiju Alpha version in reverse-chronological order: new kaiju introduced, balance and stat changes, reworks, events, and the date the patch went live. It records what changed per version rather than re-describing the full roster.",
+      "why": "Why follow the update log?",
+      "whySteps": {
+        "step1Title": "New kaiju, right away",
+        "step1Description": "Each patch that adds a kaiju is flagged, so you can spot the newest monster and its unlock route the moment it drops.",
+        "step2Title": "Balance and reworks",
+        "step2Description": "Stat adjustments and full reworks are logged per version, showing whether a kaiju you own got stronger or weaker.",
+        "step3Title": "Version dates and events",
+        "step3Description": "Every entry is dated and includes limited-time events, so you can place each change on a timeline and plan around events."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Updates"
     }
   }
 }

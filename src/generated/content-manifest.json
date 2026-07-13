@@ -1,3 +1,464 @@
 {
-  "en": {}
+  "en": {
+    "codes": [
+      {
+        "slug": "kaijualpha-codes",
+        "file": "kaijualpha-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "kaijualpha-beam-clash",
+        "file": "kaijualpha-beam-clash"
+      },
+      {
+        "slug": "kaijualpha-beginner-guide",
+        "file": "kaijualpha-beginner-guide"
+      },
+      {
+        "slug": "kaijualpha-best-starter",
+        "file": "kaijualpha-best-starter"
+      },
+      {
+        "slug": "kaijualpha-how-to-get-cells",
+        "file": "kaijualpha-how-to-get-cells"
+      },
+      {
+        "slug": "kaijualpha-how-to-level-up-fast",
+        "file": "kaijualpha-how-to-level-up-fast"
+      },
+      {
+        "slug": "kaijualpha-limit-break",
+        "file": "kaijualpha-limit-break"
+      },
+      {
+        "slug": "kaijualpha-progression-guide",
+        "file": "kaijualpha-progression-guide"
+      },
+      {
+        "slug": "kaijualpha-skill-points",
+        "file": "kaijualpha-skill-points"
+      }
+    ],
+    "kaijus": [
+      {
+        "slug": "kaijualpha-all-kaiju",
+        "file": "kaijualpha-all-kaiju"
+      },
+      {
+        "slug": "kaijualpha-destoroyah",
+        "file": "kaijualpha-destoroyah"
+      },
+      {
+        "slug": "kaijualpha-final-wars-godzilla",
+        "file": "kaijualpha-final-wars-godzilla"
+      },
+      {
+        "slug": "kaijualpha-godzilla-minus-one",
+        "file": "kaijualpha-godzilla-minus-one"
+      },
+      {
+        "slug": "kaijualpha-monster-x",
+        "file": "kaijualpha-monster-x"
+      },
+      {
+        "slug": "kaijualpha-monster-zero",
+        "file": "kaijualpha-monster-zero"
+      },
+      {
+        "slug": "kaijualpha-queen-muto",
+        "file": "kaijualpha-queen-muto"
+      },
+      {
+        "slug": "kaijualpha-shimo",
+        "file": "kaijualpha-shimo"
+      },
+      {
+        "slug": "kaijualpha-skar-king",
+        "file": "kaijualpha-skar-king"
+      },
+      {
+        "slug": "kaijualpha-space-godzilla",
+        "file": "kaijualpha-space-godzilla"
+      }
+    ],
+    "rankings": [
+      {
+        "slug": "kaijualpha-best-kaiju-for-farming",
+        "file": "kaijualpha-best-kaiju-for-farming"
+      },
+      {
+        "slug": "kaijualpha-best-kaiju",
+        "file": "kaijualpha-best-kaiju"
+      },
+      {
+        "slug": "kaijualpha-strongest-kaiju",
+        "file": "kaijualpha-strongest-kaiju"
+      },
+      {
+        "slug": "kaijualpha-tier-list",
+        "file": "kaijualpha-tier-list"
+      }
+    ],
+    "unlocks": [
+      {
+        "slug": "kaijualpha-destoroyah-requirements",
+        "file": "kaijualpha-destoroyah-requirements"
+      },
+      {
+        "slug": "kaijualpha-godzilla-2000-dna",
+        "file": "kaijualpha-godzilla-2000-dna"
+      },
+      {
+        "slug": "kaijualpha-mechagodzilla-requirements",
+        "file": "kaijualpha-mechagodzilla-requirements"
+      },
+      {
+        "slug": "kaijualpha-monster-zero-requirements",
+        "file": "kaijualpha-monster-zero-requirements"
+      },
+      {
+        "slug": "kaijualpha-monster-zero-skull-locations",
+        "file": "kaijualpha-monster-zero-skull-locations"
+      },
+      {
+        "slug": "kaijualpha-orga-second-form",
+        "file": "kaijualpha-orga-second-form"
+      },
+      {
+        "slug": "kaijualpha-shimo-requirements",
+        "file": "kaijualpha-shimo-requirements"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "kaijualpha-1-0",
+        "file": "kaijualpha-1.0"
+      },
+      {
+        "slug": "kaijualpha-new-kaiju",
+        "file": "kaijualpha-new-kaiju"
+      },
+      {
+        "slug": "kaijualpha-next-update",
+        "file": "kaijualpha-next-update"
+      },
+      {
+        "slug": "kaijualpha-update-log",
+        "file": "kaijualpha-update-log"
+      },
+      {
+        "slug": "kaijualpha-update",
+        "file": "kaijualpha-update"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "kaijualpha-codes",
+        "file": "kaijualpha-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "kaijualpha-beam-clash",
+        "file": "kaijualpha-beam-clash"
+      },
+      {
+        "slug": "kaijualpha-beginner-guide",
+        "file": "kaijualpha-beginner-guide"
+      },
+      {
+        "slug": "kaijualpha-best-starter",
+        "file": "kaijualpha-best-starter"
+      },
+      {
+        "slug": "kaijualpha-how-to-get-cells",
+        "file": "kaijualpha-how-to-get-cells"
+      },
+      {
+        "slug": "kaijualpha-how-to-level-up-fast",
+        "file": "kaijualpha-how-to-level-up-fast"
+      },
+      {
+        "slug": "kaijualpha-limit-break",
+        "file": "kaijualpha-limit-break"
+      },
+      {
+        "slug": "kaijualpha-progression-guide",
+        "file": "kaijualpha-progression-guide"
+      },
+      {
+        "slug": "kaijualpha-skill-points",
+        "file": "kaijualpha-skill-points"
+      }
+    ],
+    "kaijus": [
+      {
+        "slug": "kaijualpha-all-kaiju",
+        "file": "kaijualpha-all-kaiju"
+      },
+      {
+        "slug": "kaijualpha-destoroyah",
+        "file": "kaijualpha-destoroyah"
+      },
+      {
+        "slug": "kaijualpha-final-wars-godzilla",
+        "file": "kaijualpha-final-wars-godzilla"
+      },
+      {
+        "slug": "kaijualpha-godzilla-minus-one",
+        "file": "kaijualpha-godzilla-minus-one"
+      },
+      {
+        "slug": "kaijualpha-monster-x",
+        "file": "kaijualpha-monster-x"
+      },
+      {
+        "slug": "kaijualpha-monster-zero",
+        "file": "kaijualpha-monster-zero"
+      },
+      {
+        "slug": "kaijualpha-queen-muto",
+        "file": "kaijualpha-queen-muto"
+      },
+      {
+        "slug": "kaijualpha-shimo",
+        "file": "kaijualpha-shimo"
+      },
+      {
+        "slug": "kaijualpha-skar-king",
+        "file": "kaijualpha-skar-king"
+      },
+      {
+        "slug": "kaijualpha-space-godzilla",
+        "file": "kaijualpha-space-godzilla"
+      }
+    ],
+    "rankings": [
+      {
+        "slug": "kaijualpha-best-kaiju-for-farming",
+        "file": "kaijualpha-best-kaiju-for-farming"
+      },
+      {
+        "slug": "kaijualpha-best-kaiju",
+        "file": "kaijualpha-best-kaiju"
+      },
+      {
+        "slug": "kaijualpha-strongest-kaiju",
+        "file": "kaijualpha-strongest-kaiju"
+      },
+      {
+        "slug": "kaijualpha-tier-list",
+        "file": "kaijualpha-tier-list"
+      }
+    ],
+    "unlocks": [
+      {
+        "slug": "kaijualpha-destoroyah-requirements",
+        "file": "kaijualpha-destoroyah-requirements"
+      },
+      {
+        "slug": "kaijualpha-godzilla-2000-dna",
+        "file": "kaijualpha-godzilla-2000-dna"
+      },
+      {
+        "slug": "kaijualpha-mechagodzilla-requirements",
+        "file": "kaijualpha-mechagodzilla-requirements"
+      },
+      {
+        "slug": "kaijualpha-monster-zero-requirements",
+        "file": "kaijualpha-monster-zero-requirements"
+      },
+      {
+        "slug": "kaijualpha-monster-zero-skull-locations",
+        "file": "kaijualpha-monster-zero-skull-locations"
+      },
+      {
+        "slug": "kaijualpha-orga-second-form",
+        "file": "kaijualpha-orga-second-form"
+      },
+      {
+        "slug": "kaijualpha-shimo-requirements",
+        "file": "kaijualpha-shimo-requirements"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "kaijualpha-1-0",
+        "file": "kaijualpha-1.0"
+      },
+      {
+        "slug": "kaijualpha-new-kaiju",
+        "file": "kaijualpha-new-kaiju"
+      },
+      {
+        "slug": "kaijualpha-next-update",
+        "file": "kaijualpha-next-update"
+      },
+      {
+        "slug": "kaijualpha-update-log",
+        "file": "kaijualpha-update-log"
+      },
+      {
+        "slug": "kaijualpha-update",
+        "file": "kaijualpha-update"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "kaijualpha-codes",
+        "file": "kaijualpha-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "kaijualpha-beam-clash",
+        "file": "kaijualpha-beam-clash"
+      },
+      {
+        "slug": "kaijualpha-beginner-guide",
+        "file": "kaijualpha-beginner-guide"
+      },
+      {
+        "slug": "kaijualpha-best-starter",
+        "file": "kaijualpha-best-starter"
+      },
+      {
+        "slug": "kaijualpha-how-to-get-cells",
+        "file": "kaijualpha-how-to-get-cells"
+      },
+      {
+        "slug": "kaijualpha-how-to-level-up-fast",
+        "file": "kaijualpha-how-to-level-up-fast"
+      },
+      {
+        "slug": "kaijualpha-limit-break",
+        "file": "kaijualpha-limit-break"
+      },
+      {
+        "slug": "kaijualpha-progression-guide",
+        "file": "kaijualpha-progression-guide"
+      },
+      {
+        "slug": "kaijualpha-skill-points",
+        "file": "kaijualpha-skill-points"
+      }
+    ],
+    "kaijus": [
+      {
+        "slug": "kaijualpha-all-kaiju",
+        "file": "kaijualpha-all-kaiju"
+      },
+      {
+        "slug": "kaijualpha-destoroyah",
+        "file": "kaijualpha-destoroyah"
+      },
+      {
+        "slug": "kaijualpha-final-wars-godzilla",
+        "file": "kaijualpha-final-wars-godzilla"
+      },
+      {
+        "slug": "kaijualpha-godzilla-minus-one",
+        "file": "kaijualpha-godzilla-minus-one"
+      },
+      {
+        "slug": "kaijualpha-monster-x",
+        "file": "kaijualpha-monster-x"
+      },
+      {
+        "slug": "kaijualpha-monster-zero",
+        "file": "kaijualpha-monster-zero"
+      },
+      {
+        "slug": "kaijualpha-queen-muto",
+        "file": "kaijualpha-queen-muto"
+      },
+      {
+        "slug": "kaijualpha-shimo",
+        "file": "kaijualpha-shimo"
+      },
+      {
+        "slug": "kaijualpha-skar-king",
+        "file": "kaijualpha-skar-king"
+      },
+      {
+        "slug": "kaijualpha-space-godzilla",
+        "file": "kaijualpha-space-godzilla"
+      }
+    ],
+    "rankings": [
+      {
+        "slug": "kaijualpha-best-kaiju-for-farming",
+        "file": "kaijualpha-best-kaiju-for-farming"
+      },
+      {
+        "slug": "kaijualpha-best-kaiju",
+        "file": "kaijualpha-best-kaiju"
+      },
+      {
+        "slug": "kaijualpha-strongest-kaiju",
+        "file": "kaijualpha-strongest-kaiju"
+      },
+      {
+        "slug": "kaijualpha-tier-list",
+        "file": "kaijualpha-tier-list"
+      }
+    ],
+    "unlocks": [
+      {
+        "slug": "kaijualpha-destoroyah-requirements",
+        "file": "kaijualpha-destoroyah-requirements"
+      },
+      {
+        "slug": "kaijualpha-godzilla-2000-dna",
+        "file": "kaijualpha-godzilla-2000-dna"
+      },
+      {
+        "slug": "kaijualpha-mechagodzilla-requirements",
+        "file": "kaijualpha-mechagodzilla-requirements"
+      },
+      {
+        "slug": "kaijualpha-monster-zero-requirements",
+        "file": "kaijualpha-monster-zero-requirements"
+      },
+      {
+        "slug": "kaijualpha-monster-zero-skull-locations",
+        "file": "kaijualpha-monster-zero-skull-locations"
+      },
+      {
+        "slug": "kaijualpha-orga-second-form",
+        "file": "kaijualpha-orga-second-form"
+      },
+      {
+        "slug": "kaijualpha-shimo-requirements",
+        "file": "kaijualpha-shimo-requirements"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "kaijualpha-1-0",
+        "file": "kaijualpha-1.0"
+      },
+      {
+        "slug": "kaijualpha-new-kaiju",
+        "file": "kaijualpha-new-kaiju"
+      },
+      {
+        "slug": "kaijualpha-next-update",
+        "file": "kaijualpha-next-update"
+      },
+      {
+        "slug": "kaijualpha-update-log",
+        "file": "kaijualpha-update-log"
+      },
+      {
+        "slug": "kaijualpha-update",
+        "file": "kaijualpha-update"
+      }
+    ]
+  }
 }

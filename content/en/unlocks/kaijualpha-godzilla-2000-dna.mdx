@@ -1,0 +1,129 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Kaiju Alpha Godzilla 2000 DNA: Unlock & Progression Guide",
+  description: "Master Kaiju Alpha with our guide to DNA progression, farming strategies, and unlock requirements for top-tier monsters in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Kaiju+Alpha+Guide",
+  date: "2026-07-13",
+  author: "kaijualpha Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **kaijualpha godzilla 2000 dna** and cell farming systems are essential for unlocking powerful endgame kaiju.
+- Prioritize **high-density building clusters** to maximize your U-cell acquisition efficiency during combat.
+- Utilize **mobile kaiju** for faster map traversal when hunting for collectibles or specific spawn locations.
+- **Limit Break** your primary kaiju to surpass standard level caps and enhance your combat performance.
+- Focus on **one dependable farmer** first to establish a stable resource income for future unlocks.
+</Callout>
+
+<Section icon={Map} title="Getting Started with Kaiju Alpha">
+
+Navigating the world of Kaiju Alpha requires a balance between aggressive PvP and efficient resource management. New players should focus on understanding the core control scheme, which utilizes keys 1-5 for abilities and R/T for roars.
+
+**Video Highlights:**
+- Understanding basic combat movement and spacing.
+- Identifying high-yield farming routes for U-cells.
+- Demonstrating effective skill rotations for beginners.
+
+<YouTubeEmbed videoId="Zi3EukJHCzU" title="Kaiju Alpha Beginner Guide" />
+
+Choosing a starter kaiju like Kamata-Kun or Godzilla Junior allows you to practice these mechanics in a safer environment. Always prioritize movement over standing still to land your abilities, as this significantly increases your survivability against more experienced players.
+
+</Section>
+
+<Section icon={Swords} title="Kaiju Combat Roles & Tier Overview">
+
+Understanding your kaiju's role is critical for success in both farming and player-versus-player scenarios. The following table outlines how different combat roles perform in the current meta.
+
+| Kaiju Role | Best Use Case | Primary Strength | Mobility Level |
+| :--- | :--- | :--- | :--- |
+| Heavy All-Rounder | PvP & Farming | Balanced damage | Low |
+| Burst Fighter | Aggressive PvP | High burst damage | Moderate |
+| Area-Control | Building Farming | Wide radius attacks | Low |
+| Mobile Duelist | Chasing Targets | High speed/reposition | High |
+
+<Callout type="tip" title="Pro Tip">
+Always test your kaiju’s skill range in an empty area before engaging in a fight. Knowing exactly where your abilities land prevents wasted cooldowns and keeps your stamina bar healthy for defensive maneuvers.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Efficient Cell Farming Strategies">
+
+Farming U-cells is the backbone of your progression. Instead of chasing every player you see, establish a consistent loop that clears buildings efficiently.
+
+<Steps>
+  <Step num="1" title="Select a Wide-Area Farmer">
+    Choose a kaiju with large attack radii, such as Biollante, to hit multiple targets at once.
+  </Step>
+  <Step num="2" title="Define Your Loop">
+    Identify high-density city blocks and move between them in a circular path to minimize travel time.
+  </Step>
+  <Step num="3" title="Optimize Skill Cycles">
+    Use wide-area skills first, then follow up with smaller attacks to clear remaining structures.
+  </Step>
+  <Step num="4" title="Disengage When Necessary">
+    If a stronger player interrupts your route, move to a different sector to maintain your farming momentum.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Efficiency Alert">
+Avoid engaging in extended PvP fights while farming. The time spent in a stalemate is time lost on potential U-cell gains.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Unlock Requirements & Collections">
+
+Unlocking special kaiju often involves specific map objectives. Use the table below to track your progress for common unlock requirements.
+
+| Unlock Target | Requirement Type | Difficulty | Key Landmark |
+| :--- | :--- | :--- | :--- |
+| Monster Zero | 10 Skull Pickups | Medium | Antarctica Cave |
+| Advanced Forms | Level + Cell Cost | High | Roster Menu |
+| Special Kaiju | Map Objective | Medium | Tokyo Reactor |
+| Limit Break | Post-Cap Investment | Very High | Progression Tab |
+
+<Checklist
+  id="unlock-checklist"
+  title="Progression Milestones:"
+  items={[
+    "Reach level 50 on base form",
+    "Complete Monster Zero skull hunt",
+    "Accumulate 50,000 U-cells",
+    "Unlock Limit Break for main kaiju"
+  ]}
+/>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best way to farm U-cells in Kaiju Alpha?",
+    answer: "The most efficient way is to clear dense building clusters using an area-of-effect kaiju like Biollante, while maintaining a fixed route to minimize downtime."
+  },
+  {
+    question: "How does the Limit Break system work?",
+    answer: "Limit Break allows you to bypass the standard level cap for a specific kaiju, enabling further progression toward level 200 after paying a significant Cell cost."
+  },
+  {
+    question: "Are there active codes for Kaiju Alpha?",
+    answer: "Currently, there are no active codes. Players should focus on in-game farming and objective completion to earn Cells and experience."
+  },
+  {
+    question: "Which kaiju should I unlock first?",
+    answer: "Prioritize unlocking a reliable farmer first. This allows you to generate enough Cells to comfortably purchase PvP-focused kaiju later."
+  }
+]} />
+
+</Section>

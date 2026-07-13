@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Skill Points em Kaijualpha: Guia de Nível e Upgrade de Habilidades",
+  description: "Domine os skill points e a progressão em Kaijualpha. Aprenda como farmar Cells, desbloquear o moveset de 5 habilidades e alcançar o limite de nível 200 em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/38bdf8?text=Skill+Points+Guide",
+  date: "2026-07-13",
+  author: "Equipe da Wiki Kaijualpha",
+  keywords: "kaijualpha, skill points, guia, farming, cells, nível 200, roblox"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Skill points de Kaijualpha** são representados pelo acúmulo de **EXP e Cells** (U-Cells/G-Cells) usados para desbloquear e aprimorar kaijus.
+- **Slots de Habilidade**: Cada kaiju possui um layout padrão de **5 habilidades** (teclas 1-5) e **2 ações de rugido** (teclas R e T).
+- **Prioridade de Farming**: Foque em **Biollante ou Suko** para dano em área de alta eficiência para maximizar o ganho de recursos.
+- **Limit Break**: A progressão pós-limite permite que você leve seus monstros favoritos rumo ao **marco do Nível 200**.
+- **Estratégia de Desbloqueio**: Economize Cells para personagens versáteis de alto nível, como o **Final Wars Godzilla**, em vez de comprar vários iniciantes de nível baixo.
+</Callout>
+
+<Section icon={Map} title="Entendendo os Skill Points e Sistemas de Recursos em Kaijualpha">
+
+No meta atual de 2026, os **skill points de Kaijualpha** funcionam como a moeda principal para o crescimento do personagem, embora sejam tecnicamente rastreados através de Experiência (EXP) e Cells. Diferente dos RPGs tradicionais, onde você pode atribuir pontos de estatísticas manualmente em força ou velocidade, este jogo utiliza um sistema de desbloqueio baseado em progressão. À medida que você ganha EXP, seu kaiju sobe de nível, o que serve como pré-requisito para comprar formas avançadas ou ativar o sistema de Limit Break.
+
+Gerenciar esses "pontos" de forma eficaz requer entender os diferentes tipos de Cells e como eles interagem com o seu nível. Cada batalha e prédio destruído contribui para o seu pool total de recursos, permitindo a transição de um iniciante básico como Kamata-Kun para uma potência como Monster X.
+
+**Destaques do Vídeo:**
+- **Showcase de Habilidades**: Demonstração visual das teclas de habilidade 1-5 para kaijus de alto nível.
+- **Execução de Combos**: Como encadear ataques de energia e golpes físicos para o máximo de DPS.
+- **Eficiência de Farming**: Demonstração de ataques de efeito em área (AoE) em estruturas da cidade.
+
+<YouTubeEmbed videoId="n_pyhdyR9ZM" title="MONSTER X SHOWCASE! - Roblox Kaiju Alpha" />
+
+| Tipo de Recurso | Fonte Primária | Uso Primário | Prioridade |
+| :--- | :--- | :--- | :--- |
+| **U-Cells** | Destruição de prédios / PvP | Desbloquear kaijus base e formas | **Alta** |
+| **G-Cells** | Eventos especiais / PvP de alto nível | Evoluções avançadas / Desbloqueios especiais | **Média** |
+| **EXP** | Atividade de combate / Sobrevivência | Alcançar níveis para novas habilidades | **Essencial** |
+| **Limit Break** | Investimento Nível 100+ | Aumentar status rumo ao Nível 200 | **Endgame** |
+
+<Callout type="warning" title="Gestão de Recursos">
+Evite gastar suas U-Cells iniciais em todos os kaijus iniciantes disponíveis. É significativamente mais eficiente economizar para um "especialista em farming" que possa limpar prédios mais rápido, acelerando assim seu acúmulo futuro de "pontos".
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades de Combate e Mapeamento de Slots">
+
+Cada monstro no jogo segue um esquema de controle padronizado, mas a utilidade do investimento de seus **skill points de Kaijualpha** varia drasticamente. Entender o layout de habilidades 1-5 é essencial tanto para o PvP quanto para o farming eficiente. Em 2026, os jogadores mais bem-sucedidos utilizam uma "rotação" em vez de apenas apertar botões aleatoriamente, garantindo que sempre tenham pelo menos uma habilidade fora do cooldown para lidar com ameaças inesperadas.
+
+Os slots de habilidade são geralmente categorizados por alcance e comprometimento. O Slot 1 costuma ser um ataque rápido com baixo cooldown, enquanto o Slot 5 é frequentemente um movimento estilo "Ultimate" de alto dano com uma animação mais longa.
+
+| Tecla | Categoria de Ação | Função Típica | Dica de Combate |
+| :--- | :--- | :--- | :--- |
+| **1** | Habilidade Básica | Melee rápido ou projétil leve | Use para pressão constante |
+| **2** | Habilidade Secundária | Ferramenta de movimento ou combo | Confirme o hit 1 antes de usar |
+| **3** | Utilidade/Controle | Stuns, knockbacks ou AoE | Guarde para escapar ou interromper |
+| **4** | Ataque Pesado | Energia de alto dano ou físico | Use quando o inimigo estiver preso em animação |
+| **5** | Habilidade Assinatura | Raio Ultimate ou golpe massivo | Não abra uma luta com isso |
+| **R** | Rugido 1 | Buff ou knockback menor | Use para criar espaço |
+| **T** | Rugido 2 | Efeito de rugido maior | Mantenha disponível para lutas em grupo |
+
+<CardGrid cols={3}>
+  <Card title="Especialistas à Distância">
+    - **Kamata-Kun**: Excelente para iniciantes manterem distância dos inimigos.
+    - **Godzilla 2019**: Sopro atômico confiável para dano sustentado.
+    - **Foco**: Gerenciamento de espaço e cooldown.
+  </Card>
+  <Card title="Lutadores de Curto Alcance">
+    - **Kong**: Alta pressão física e combos diretos.
+    - **Destoroyah**: Dano explosivo devastador a curta distância.
+    - **Foco**: Fechar a distância e gestão de stamina.
+  </Card>
+  <Card title="Versáteis (All-Rounders)">
+    - **Final Wars Godzilla**: Equilibrado para PvP e farming.
+    - **Monster X**: Combos rápidos e projéteis de energia.
+    - **Foco**: Adaptabilidade em vários cenários de combate.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conselho de Combate Pro">
+A gestão de stamina é tão importante quanto os skill points. Se você esgotar sua barra de stamina usando movimentos e ataques simultaneamente, você se tornará um alvo fácil para os ataques pesados do Slot 5 do seu oponente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo: Rota Eficiente de Farming de Cells e EXP">
+
+Para maximizar seus **skill points de Kaijualpha** (na forma de Cells e EXP), você deve estabelecer um ciclo de farming repetível. A eficiência é determinada pelo "dano por segundo" contra objetos do ambiente. O objetivo é minimizar o tempo de viagem entre clusters de edifícios enquanto mantém suas habilidades em rotação constante.
+
+<Steps>
+  <Step num="1" title="Selecione seu Farmer">
+    Escolha um kaiju com ataques de área ampla. **Biollante** é o padrão ouro para destruição de prédios, mas **Suko** ou **Godzilla Junior** são excelentes alternativas econômicas para novos jogadores.
+  </Step>
+  <Step num="2" title="Localize Zonas de Alta Densidade">
+    Vá para o **Tokyo Reactor** ou o **centro da cidade de Hong Kong**. Essas áreas possuem a maior quantidade de prédios concentrados no menor raio, permitindo que uma habilidade AoE atinja várias estruturas.
+  </Step>
+  <Step num="3" title="Execute a Rotação">
+    Comece com sua maior AoE (geralmente Habilidade 3 ou 4). Enquanto elas recarregam, use seus ataques leves (Habilidade 1) para limpar os destroços restantes. Mova-se para o próximo quarteirão antes que o último prédio caia.
+  </Step>
+  <Step num="4" title="Evite Distrações">
+    Em uma sessão de farming, o PvP é um ralo de recursos. Se um jogador mais forte iniciar uma luta, use sua mobilidade ou rugidos para desengajar. A sobrevivência é a chave para manter sua taxa de EXP por minuto.
+  </Step>
+  <Step num="5" title="O Caminho para o Nível 200">
+    Assim que atingir o limite de nível inicial, invista suas Cells acumuladas no sistema de **Limit Break**. Isso permite que seu farmer continue ganhando níveis, aumentando ainda mais seu prestígio e poder.
+  </Step>
+</Steps>
+
+| Kaiju | Eficiência de Farming | Melhor Zona | Habilidade Recomendada para AoE |
+| :--- | :--- | :--- | :--- |
+| **Biollante** | ★★★★★ | Tokyo Reactor | Tendril Strike (Slot 3) |
+| **Suko** | ★★★★☆ | Hong Kong | Ground Pound (Slot 4) |
+| **G-Junior** | ★★★☆☆ | Skull Island | Atomic Breath (Slot 2) |
+| **Monster X** | ★★★☆☆ | Antarctica | Energy Burst (Slot 5) |
+
+<Callout type="success" title="Dica de Farming">
+Trocar de servidor (Server hopping) pode ser benéfico. Se um servidor estiver superlotado com jogadores destruindo prédios, sua rota de farming será interrompida. Encontre um servidor mais tranquilo para garantir um suprimento constante de estruturas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Requisitos de Desbloqueio e Marcos de Progressão">
+
+Gastar seus **skill points de Kaijualpha** com sabedoria significa conhecer os requisitos específicos para o elenco de elite do jogo. Muitos kaijus estão bloqueados por requisitos de nível, custos específicos de Cells ou itens colecionáveis baseados no mapa. Por exemplo, obter o **Monster Zero** é um rito de passagem que exige mais do que apenas grind; exige exploração.
+
+<Checklist
+  id="unlock-checklist"
+  title="Objetivos Essenciais de Progressão para 2026:"
+  items={[
+    "Alcançar o Nível 100 com seu kaiju principal de farming",
+    "Coletar todos os 10 crânios do Monster Zero pelo mapa",
+    "Acumular 50.000+ U-Cells para desbloqueios de alto nível",
+    "Desbloquear o Final Wars Godzilla (destaque da Atualização 38)",
+    "Ativar o Limit Break em pelo menos um monstro de Nível S",
+    "Dominar as mecânicas de voo do Showa Jet Jaguar"
+  ]}
+/>
+
+| Desbloqueio de Kaiju | Custo de Cells | Requisito de Nível | Objetivo Especial |
+| :--- | :--- | :--- | :--- |
+| **Monster Zero** | Moderado | N/A | Encontrar 10 Crânios Escondidos |
+| **FW Godzilla** | Alto | Nível 100+ | Possuir G19 Base Form |
+| **Jet Jaguar** | Médio | Nível 50+ | N/A |
+| **Aquatilis** | Baixo | N/A | Participação em combate aquático |
+| **SpaceGodzilla** | Muito Alto | Nível 150+ | Limit Break Ativo |
+
+<Callout type="info" title="Meta da Atualização 38">
+A recente Atualização 38 tornou o **Final Wars Godzilla** a força dominante tanto no PvP quanto na progressão geral. Se você tiver um excedente de "pontos", este é atualmente o melhor investimento para o gameplay geral.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Upgrades Avançados: O Sistema de Limit Break">
+
+O sistema de Limit Break é onde os jogadores veteranos se separam da multidão. Depois de atingir o limite de nível padrão, seus **skill points de Kaijualpha** (EXP) não contribuem mais para o seu crescimento, a menos que você "quebre" o limite. Isso requer um investimento significativo de Cells, mas é necessário para alcançar o prestigioso **Nível 200**.
+
+Dar um Limit Break em um kaiju não fornece apenas um nível com borda dourada; significa que o personagem atingiu seu potencial máximo. No cenário competitivo de 2026, a maioria dos jogadores de alto ranking usa apenas kaijus com Limit Break para guerras de clãs sérias e controle de território.
+
+| Fase de Upgrade | Requisito | Benefício Primário | Risco de Investimento |
+| :--- | :--- | :--- | :--- |
+| **Pré-Limite** | Nível 1-99 | Desbloqueio de Habilidades | Baixo |
+| **Limit Break** | Nível 100 + Cells | Desbloqueia EXP Pós-Limite | Alto |
+| **Pós-Limite** | Nível 101-199 | Prestígio e Poder | Muito Alto |
+| **Maestria Máxima** | Nível 200 | Status Ultimate | Apenas Elite |
+
+<Callout type="tip" title="Estratégia de Investimento">
+Só use o Limit Break no seu "Main" (principal). Como o custo de Cells é muito alto, espalhar seus recursos em dez monstros diferentes deixará você com um elenco de personagens medíocres. Foque em um kaiju de Nível S até que ele atinja o Nível 200.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como consigo mais skill points de Kaijualpha rapidamente?",
+    answer: "A maneira mais rápida de ganhar recursos é usando um kaiju com alto AoE, como a Biollante, em áreas urbanas densas como o Tokyo Reactor. Foque em destruir prédios em vez de caçar jogadores para obter ganhos mais consistentes de EXP e Cells."
+  },
+  {
+    question: "Qual é a melhor maneira de gastar minhas Cells?",
+    answer: "A prioridade deve ser dada ao desbloqueio de um farmer confiável primeiro e, depois, economizar para um kaiju de PvP de Nível S, como o Final Wars Godzilla ou Destoroyah. Evite comprar todos os monstros de nível baixo do catálogo."
+  },
+  {
+    question: "O sistema de Limit Break vale o custo?",
+    answer: "Sim, mas apenas para o seu kaiju mais utilizado. É um sistema de endgame projetado para fornecer progressão a longo prazo rumo ao Nível 200, mas exige uma quantidade massiva de Cells que poderiam ser usadas para novos desbloqueios."
+  },
+  {
+    question: "Onde posso encontrar os crânios do Monster Zero?",
+    answer: "Os crânios estão espalhados pelo mapa em marcos como a caverna da Antártida, o estaleiro de Tóquio e o abismo subaquático. Usar um kaiju voador como o Jet Jaguar torna essa busca por colecionáveis significativamente mais rápida."
+  }
+]} />
+
+</Section>

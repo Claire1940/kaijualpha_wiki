@@ -1,0 +1,130 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Kaiju Alpha Godzilla 2000 DNA: Guia de Desbloqueio e Progressão",
+  description: "Domine o Kaiju Alpha com nosso guia de progressão de DNA, estratégias de farming e requisitos de desbloqueio para monstros de alto nível em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Kaiju+Alpha+Guide",
+  date: "2026-07-13",
+  author: "Equipe da Wiki kaijualpha",
+  keywords: "kaijualpha godzilla 2000 dna, farming de células, desbloqueio de kaiju, guia de progressão"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os sistemas de **DNA do godzilla 2000 do kaijualpha** e farming de células são essenciais para desbloquear kaijus poderosos de endgame.
+- Priorize **aglomerados de edifícios de alta densidade** para maximizar sua eficiência de aquisição de U-cells durante o combate.
+- Utilize **kaijus móveis** para uma travessia de mapa mais rápida ao caçar colecionáveis ou locais de spawn específicos.
+- Use o **Limit Break** em seu kaiju principal para superar os limites de nível padrão e melhorar seu desempenho em combate.
+- Concentre-se em **um farmer confiável** primeiro para estabelecer uma renda estável de recursos para desbloqueios futuros.
+</Callout>
+
+<Section icon={Map} title="Como Começar no Kaiju Alpha">
+
+Navegar pelo mundo do Kaiju Alpha exige um equilíbrio entre PvP agressivo e gerenciamento eficiente de recursos. Novos jogadores devem se concentrar em entender o esquema básico de controles, que utiliza as teclas 1-5 para habilidades e R/T para rugidos.
+
+**Destaques do Vídeo:**
+- Entendendo a movimentação básica de combate e espaçamento.
+- Identificando rotas de farming de alto rendimento para U-cells.
+- Demonstrando rotações de habilidades eficazes para iniciantes.
+
+<YouTubeEmbed videoId="Zi3EukJHCzU" title="Guia de Iniciante Kaiju Alpha" />
+
+Escolher um kaiju inicial como Kamata-Kun ou Godzilla Junior permite que você pratique essas mecânicas em um ambiente mais seguro. Sempre priorize a movimentação em vez de ficar parado para acertar suas habilidades, pois isso aumenta significativamente sua sobrevivência contra jogadores mais experientes.
+
+</Section>
+
+<Section icon={Swords} title="Funções de Combate e Visão Geral de Tiers de Kaiju">
+
+Entender a função do seu kaiju é crítico para o sucesso tanto no farming quanto em cenários de jogador contra jogador. A tabela a seguir descreve como diferentes funções de combate se comportam no meta atual.
+
+| Função do Kaiju | Melhor Caso de Uso | Força Principal | Nível de Mobilidade |
+| :--- | :--- | :--- | :--- |
+| Polivalente Pesado | PvP e Farming | Dano equilibrado | Baixo |
+| Lutador de Explosão | PvP Agressivo | Alto dano de explosão | Moderado |
+| Controle de Área | Farming de Edifícios | Ataques de raio amplo | Baixo |
+| Duelista Móvel | Perseguir Alvos | Alta velocidade/reposicionamento | Alto |
+
+<Callout type="tip" title="Dica Profissional">
+Sempre teste o alcance das habilidades do seu kaiju em uma área vazia antes de entrar em uma luta. Saber exatamente onde suas habilidades atingem evita desperdício de recargas e mantém sua barra de stamina saudável para manobras defensivas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégias Eficientes de Farming de Células">
+
+O farming de U-cells é a espinha dorsal da sua progressão. Em vez de perseguir cada jogador que você vê, estabeleça uma rota consistente que limpe edifícios de forma eficiente.
+
+<Steps>
+  <Step num="1" title="Selecione um Farmer de Área Ampla">
+    Escolha um kaiju com grandes raios de ataque, como Biollante, para atingir vários alvos ao mesmo tempo.
+  </Step>
+  <Step num="2" title="Defina sua Rota">
+    Identifique quarteirões de alta densidade na cidade e mova-se entre eles em um caminho circular para minimizar o tempo de viagem.
+  </Step>
+  <Step num="3" title="Otimize os Ciclos de Habilidades">
+    Use habilidades de área ampla primeiro e, em seguida, siga com ataques menores para limpar as estruturas restantes.
+  </Step>
+  <Step num="4" title="Desengaje Quando Necessário">
+    Se um jogador mais forte interromper sua rota, mova-se para um setor diferente para manter seu ritmo de farming.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Alerta de Eficiência">
+Evite se envolver em lutas prolongadas de PvP enquanto estiver farmando. O tempo gasto em um impasse é tempo perdido em ganhos potenciais de U-cells.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Requisitos de Desbloqueio e Coleções">
+
+Desbloquear kaijus especiais geralmente envolve objetivos específicos no mapa. Use a tabela abaixo para acompanhar seu progresso em requisitos comuns de desbloqueio.
+
+| Alvo de Desbloqueio | Tipo de Requisito | Dificuldade | Ponto de Referência Chave |
+| :--- | :--- | :--- | :--- |
+| Monster Zero | 10 Coletas de Crânios | Média | Caverna da Antártida |
+| Formas Avançadas | Nível + Custo de Células | Alta | Menu do Roster |
+| Kaiju Especial | Objetivo do Mapa | Média | Reator de Tóquio |
+| Limit Break | Investimento Pós-Limite | Muito Alta | Aba de Progressão |
+
+<Checklist
+  id="unlock-checklist"
+  title="Marcos de Progressão:"
+  items={[
+    "Alcançar nível 50 na forma base",
+    "Completar a caça aos crânios do Monster Zero",
+    "Acumular 50.000 U-cells",
+    "Desbloquear o Limit Break para o kaiju principal"
+  ]}
+/>
+
+</Section>
+
+<Section icon={BookOpen} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor maneira de farmar U-cells no Kaiju Alpha?",
+    answer: "A maneira mais eficiente é limpar aglomerados densos de edifícios usando um kaiju de efeito em área como o Biollante, mantendo uma rota fixa para minimizar o tempo de inatividade."
+  },
+  {
+    question: "Como funciona o sistema de Limit Break?",
+    answer: "O Limit Break permite que você ultrapasse o limite de nível padrão para um kaiju específico, permitindo progressão adicional até o nível 200 após o pagamento de um custo significativo de Células."
+  },
+  {
+    question: "Existem códigos ativos para o Kaiju Alpha?",
+    answer: "Atualmente, não há códigos ativos. Os jogadores devem se concentrar no farming dentro do jogo e na conclusão de objetivos para ganhar Células e experiência."
+  },
+  {
+    question: "Qual kaiju devo desbloquear primeiro?",
+    answer: "Priorize o desbloqueio de um farmer confiável primeiro. Isso permite que você gere Células suficientes para comprar confortavelmente kaijus focados em PvP mais tarde."
+  }
+]} />
+
+</Section>

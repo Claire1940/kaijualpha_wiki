@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "rankings": "Rankings",
+    "kaijus": "Kaijus",
+    "unlocks": "Unlocks",
+    "updates": "Updates"
+  }
+}
