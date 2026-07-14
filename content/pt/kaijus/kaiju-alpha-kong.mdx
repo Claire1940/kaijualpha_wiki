@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Kaiju Alpha Kong: Guia de Movimentos e Builds de Atributos do Kong 2021",
+  description: "Domine o Kong 2021 no Roblox Kaiju Alpha. Aprenda as melhores builds de atributos, mecânicas de machado, combos de alto dano e como derrotar o Godzilla Minus One.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Kaiju+Alpha+Kong+Guide",
+  date: "2026-07-14",
+  author: "Equipe da Wiki do kaijualpha"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **Kaiju Alpha Kong 2021** é uma potência de primeira linha, caracterizado por ataques de impacto de alto dano e utilidade de arma dinâmica.
+- A **Utilidade do Machado de Batalha** é desbloqueada com 100 de energia, aumentando seu dano para mais de 1.000 por golpe.
+- A **Distribuição de Atributos** requer uma divisão equilibrada entre Vida (HP), Força e Rejuvenescimento para máxima eficiência em combate.
+- A **Cura Ativa** é integrada diretamente ao conjunto de movimentos básicos do Kong através do seu terceiro slot de habilidade.
+- A **Mecânica de Bloqueio com Machado** permite refletir o dano recebido diretamente de volta para os monstros inimigos.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Kaiju Alpha Kong 2021">
+
+A introdução da versão 2021 do **kaiju alpha kong** traz uma mudança massiva para o meta do Roblox Kaiju Alpha. Em comparação com o modelo antigo do Kong de 2017, que tem aproximadamente o tamanho do Godzilla Junior, o Kong 2021 possui o dobro da escala física, alcance superior e um sistema devastador de mecânicas baseado em armas. 
+
+**Destaques do Vídeo:**
+- **Comparação de Tamanho:** Demonstrando a enorme vantagem de escala física do Kong 2021 sobre o Kong 2017.
+- **Demonstração de Movimentos:** Detalhamento dos impactos básicos e dos golpes de Machado de Batalha de mais de 1.000 de dano.
+- **Estratégia de Combate:** Partidas em tempo real mostrando como alternar curas e contra-atacar ataques pesados de sopro atômico.
+
+<YouTubeEmbed videoId="wHEGJi93Qn4" title="KONG 2021 is AMAZING in KAIJU ALPHA" />
+
+Embora o combate corpo a corpo básico torne o Kong um concorrente sólido, desbloquear sua utilidade especializada do Machado de Batalha o eleva a, indiscutivelmente, a besta mais forte do jogo. Este guia cobre seu conjunto completo de movimentos, estratégias de distribuição de atributos e táticas de combate para ajudar você a dominar o servidor.
+
+| Recurso | Kong 2017 | Kong 2021 |
+| --- | --- | --- |
+| Tamanho Físico | Pequeno (escala do Godzilla Jr.) | Grande (Dobro da escala do Godzilla Jr.) |
+| HP Base | Moderado | Alto (Até 5.500 no máximo) |
+| Acesso a Armas | Nenhum | Machado de Batalha (Requer 100 de Energia) |
+| Habilidade de Cura | Limitada | Rejuvenescimento Integrado (300 de HP base) |
+| Pico de Dano | Moderado | Extremo (1.000+ com impactos de Machado) |
+
+<Callout type="tip" title="Vantagem de Tamanho">
+Use sua escala física maior para alcançar monstros menores. Seus golpes básicos de esquerda e direita têm uma área de acerto (hitbox) mais ampla do que a maioria das bestas iniciais padrão.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análise Completa de Movimentos e Mecânicas do Machado">
+
+O Kong 2021 apresenta um conjunto de movimentos versátil que muda dinamicamente dependendo se seu Machado de Batalha está empunhado. Gerenciar seus níveis de energia para sacar o machado é o ciclo de jogabilidade principal para jogadores de alto nível.
+
+### Conjunto de Movimentos Básico (Desarmado)
+Sem o machado, Kong depende de golpes físicos pesados, impactos no chão e habilidades de autopreservação:
+
+| Slot do Movimento | Nome da Ação | Dano / Efeito | Uso Tático |
+| --- | --- | --- | --- |
+| Movimento 1 | Golpe de Mão Direita | Baixo-Moderado | Ataque rápido para interromper iniciações inimigas |
+| Movimento 2 | Impacto no Chão | Moderado | Bom ataque de área de efeito para grupos |
+| Movimento 3 | Rejuvenescimento | Cura 300 de HP | Restaura a vida; altamente vulnerável durante a conjuração |
+| Movimento 4 | Impacto Múltiplo | Alto | Libera uma sequência rápida de impactos no chão |
+| Movimento 5 | Impacto com Salto | Muito Alto (570+ base) | Golpe de aproximação pesado com excelente alcance |
+
+### Conjunto de Movimentos do Machado de Batalha (Utilitário Ativo)
+Assim que sua barra de energia atingir 100, ativar seu utilitário puxa o Machado de Batalha do chão. Isso altera completamente sua eficácia em combate:
+
+| Slot do Movimento | Ação do Machado | Dano / Efeito | Uso Tático |
+| --- | --- | --- | --- |
+| Movimento 3 (Machado) | Bloqueio de Escudo | Deflete o dano | Absorve ataques e devolve o dano aos atacantes |
+| Movimento 5 (Machado) | Impacto de Machado com Salto | Extremo (800 - 1.300+) | Salto aéreo devastador que esmaga os alvos |
+| Utilitário | Arremessar Machado | Descarta a arma | Redefine o conjunto de movimentos de volta ao estado desarmado |
+
+<CardGrid cols={3}>
+  <Card title="Cura Desarmada">
+    Use o **Movimento 3** apenas ao recuar. Ele fornece um aumento rápido de 300 de HP, mas deixa você completamente exposto a combos se usado no meio da luta.
+  </Card>
+  <Card title="Bloqueio com Machado">
+    Quando o machado está empunhado, o **Movimento 3** torna-se um bloqueio de escudo. Use isso para absorver ataques massivos de projéteis, como o sopro atômico.
+  </Card>
+  <Card title="Impacto de Machado com Salto">
+    O **Movimento 5** com o machado causa até 1.300 de dano quando os atributos estão distribuídos corretamente, tornando-o o principal movimento de finalização.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Vulnerabilidade de Cura">
+Nunca use o Movimento 3 repetidamente enquanto troca golpes com oponentes pesados como o Godzilla. O bloqueio de animação permitirá que os inimigos acertem seus combos mais fortes sem interrupção.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Distribuição Ideal de Atributos">
+
+Ao subir o nível do seu Kong 2021 até o nível máximo de 100, colocar todos os seus pontos em força bruta é altamente ineficiente. Como o escalonamento do Kong se beneficia muito da sobrevivência, uma build híbrida é necessária para ocorrer em lobbies caóticos de todos contra todos.
+
+<Steps>
+  <Step num="1" title="Maximize a Vida (HP)">
+    Distribua seus pontos para elevar seu HP máximo até o **limite de 5.500**. Isso fornece a enorme quantidade de vida necessária para sobreviver a grandes rajadas de dano de oponentes de alto nível.
+  </Step>
+  <Step num="2" title="Divida os Pontos em Rejuvenescimento">
+    Invista aproximadamente **50% dos seus pontos restantes** em Rejuvenescimento. Isso aumenta a velocidade com que sua energia e vida se recuperam, permitindo que você recarregue para 100 de energia rapidamente.
+  </Step>
+  <Step num="3" title="Distribua o Restante em Força">
+    Coloque os **50% finais dos pontos** em Força. Como o dano base do Machado de Batalha já é excepcionalmente alto, você não precisa de força máxima para derrotar os oponentes facilmente.
+  </Step>
+</Steps>
+
+| Tipo de Build | Distribuição de HP | Distribuição de Força | Distribuição de Regen | Estilo de Jogo |
+| --- | --- | --- | --- | --- |
+| **Meta Híbrido** | Máximo (5.500) | 50% Restante | 50% Restante | Alta sobrevivência, energia rápida, dano explosivo massivo com machado |
+| Canhão de Vidro | Baixo | Máximo | Baixo | Extremamente arriscado, facilmente eliminado por grupos |
+| Build Tanque | Máximo (5.500) | Baixo | Máximo | Alta sobrevivência, eliminações lentas, baixo dano explosivo |
+
+<Callout type="success" title="A Vantagem da Regeneração">
+Com um investimento de 50% em Rejuvenescimento, sua energia volta ao máximo quase instantaneamente após gastá-la, permitindo que você mantenha seu Machado de Batalha ativo para lutas consecutivas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Confrontos e Estratégias de Combate">
+
+Para dominar o servidor como Kong 2021, você deve entender como lidar com confrontos específicos. O jogo apresenta uma variedade de oponentes pesados que exigem abordagens táticas distintas.
+
+### Estratégia de Confrontos
+
+| Oponente | Nível de Ameaça | Estratégia Principal | Contra-ataque |
+| --- | --- | --- | --- |
+| **Godzilla Minus One** | Alto | Provoque o Sopro Atômico e depois ataque | Use o Bloqueio com Machado (Movimento 3) ou afaste-se saltando com o Impacto com Salto |
+| **Kiryu** | Médio | Supere o alcance com ataques físicos pesados | Puna suas animações de recuperação com o Impacto Múltiplo |
+| **Titan X** | Baixo | Explore suas animações de ataque lentas | Gire ao redor deles e acerte Impactos com Salto facilmente por trás |
+
+### Metas Essenciais de Combate
+
+<Checklist
+  id="kong-combat-milestones"
+  title="Lista de Verificação de Maestria em Combate:"
+  items={[
+    "Acumular energia com sucesso até 100 sem perder mais de 20% de HP",
+    "Executar um Bloqueio com Machado perfeito contra um ataque de feixe ou projétil",
+    "Acertar um Impacto de Machado com Salto de dano máximo causando mais de 1.000 de dano",
+    "Derrotar um Godzilla Minus One de alto nível em um cenário de 1v1"
+  ]}
+/>
+
+<Callout type="info" title="Consciência de Campo de Batalha">
+Se você se encontrar sendo alvo de vários jogadores, use seu Impacto com Salto (Movimento 5) para saltar para fora da zona de perigo, encontrar um canto calmo e conjurar sua cura desarmada.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para desbloquear o Machado de Batalha para o Kong 2021?",
+    answer: "Você deve carregar sua barra de energia até 100 acertando ataques físicos básicos nos oponentes. Quando chegar a 100, pressione a tecla do seu Utilitário para puxar o machado do chão."
+  },
+  {
+    question: "O que o Movimento 3 faz quando o Machado de Batalha está equipado?",
+    answer: "Ao contrário da versão desarmada que cura você, o Movimento 3 armado age como um bloqueio de escudo. Ele deflete os ataques recebidos e pode devolver o dano diretamente ao seu atacante."
+  },
+  {
+    question: "O Kong 2021 é melhor que o Godzilla Minus One?",
+    answer: "Sim. Embora o Godzilla Minus One tenha um alto dano explosivo, o Kong 2021 possui mobilidade superior, cura integrada e um bloqueio defensivo versátil que contra-ataca feixes pesados."
+  },
+  {
+    question: "Qual é a melhor build de atributos para o Kong no nível máximo?",
+    answer: "A build ideal é maximizar seu HP para 5.500 e, em seguida, dividir os pontos de habilidade restantes igualmente (50/50) entre Força e Rejuvenescimento."
+  }
+]} />
+
+</Section>

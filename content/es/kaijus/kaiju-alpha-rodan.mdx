@@ -1,0 +1,153 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Kaiju Alpha Rodan: Guía de Progresión y Estrategia de Combate",
+  description: "Domina las mecánicas de Kaiju Alpha Rodan en Kaiju Universe. Aprende las etapas del Heat Riser, combos de combate y rutas rápidas de farmeo para dominar el campo de batalla.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Kaiju+Alpha+Rodan+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de kaijualpha",
+  keywords: "kaiju alpha rodan, guía, combate, progresión, kaiju universe"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Kaiju Alpha Rodan**: Titanus Rodan es un volador cuerpo a cuerpo altamente dominante y de gran daño en Kaiju Universe.
+- **Heat Riser**: Acumula el "Calor Enlatado" (Canned Heat) naranja para desbloquear cuatro etapas distintas de poder y regeneración.
+- **Explosión de Etapa 4**: Alcanzar la Etapa 4 transforma tu rugido en un devastador ataque de fuego de área de efecto (AoE).
+- **Eficiencia de Farmeo**: Compra a Titanus Rodan directamente con G-Cells, lo que lo convierte en uno de los voladores de alto nivel más fáciles de obtener.
+</Callout>
+
+<Section icon={Map} title="Descripción General de las Mecánicas de Titanus Rodan">
+
+Titanus Rodan (también conocido como el Rodan del MonsterVerse) es uno de los combatientes aéreos más confiables y de mayor impacto en Kaiju Universe. Con una capacidad de velocidad masiva de hasta Mach 3.5 según el lore, este pterosaurio gigante domina las escaramuzas tanto terrestres como aéreas. Depende de un sistema de calor único para desbloquear su verdadero potencial ofensivo.
+
+| Atributo | Valor Base | Calificación | Rol Táctico |
+|--- |--- |--- |--- |
+| **Daño Cuerpo a Cuerpo** | Alto | ★★★★★ | Luchador de Primera Línea |
+| **Velocidad de Vuelo** | Mach 3.5 | ★★★★★ | Interceptor de Alta Velocidad |
+| **Facilidad de Uso** | Alta | ★★★★☆ | Ideal para Principiantes |
+| **Defensa** | Moderada | ★★★☆☆ | Atacante de Golpe y Huida |
+
+A diferencia de otros monstruos complejos, Titanus Rodan no requiere misiones de desbloqueo frustrantes. Puedes comprarlo directamente usando G-Cells. Esta accesibilidad lo convierte en una opción extremadamente popular tanto para jugadores nuevos como para veteranos que buscan farmear recursos de manera eficiente.
+
+<Callout type="tip" title="Consejo Pro">
+Prioriza siempre desbloquear a Titanus Rodan temprano si necesitas un volador confiable para recolectar G-Cells. Su baja curva de aprendizaje te permite desafiar a monstruos de mayor nivel sin configuraciones complejas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El Sistema Heat Riser y sus Etapas">
+
+La mecánica central del estilo de juego de Kaiju Alpha Rodan gira en torno a la barra naranja de Calor Enlatado (Canned Heat). Al asestar ataques específicos, generas recursos de calor. Una vez que tu barra esté llena, activar tu utilidad **Heat Riser** en el suelo potencia tu daño general y tu regeneración pasiva de salud.
+
+<CardGrid cols={3}>
+  <Card title="Etapas 1 y 2">
+    - **Visual**: Brillo naranja sutil en el cuerpo.
+    - **Mejoras**: Aumentos menores en daño y regeneración.
+    - **Estrategia**: Acumula calor rápidamente usando combos básicos cuerpo a cuerpo.
+  </Card>
+  <Card title="Etapa 3">
+    - **Visual**: Boca naranja brillante con lava goteando.
+    - **Mejoras**: Escalamiento ofensivo moderado y partículas de fuego en las alas.
+    - **Estrategia**: Mantén esta etapa como tu estado de combate base.
+  </Card>
+  <Card title="Etapa 4">
+    - **Visual**: Grietas rojas pulsantes en las alas y la boca.
+    - **Mejoras**: Aumento masivo de daño y desbloqueo del Rugido AoE.
+    - **Estrategia**: Desata una explosión inmediata antes de que el temporizador se agote.
+  </Card>
+</CardGrid>
+
+Este sistema presenta un ciclo de desgaste. Cuando expira la duración temporal de la Etapa 4, tu nivel de poder vuelve a la Etapa 3. Esto permite a los jugadores hábiles regresar rápidamente a la Etapa 4 si gestionan su Calor Enlatado de manera eficiente durante el combate.
+
+| Etapa de Calor | Indicadores Visuales | Mejora de Daño | Habilidad Única |
+|--- |--- |--- |--- |
+| **Etapa 1** | Apariencia del modelo predeterminado | Ninguna | Rugido Estándar |
+| **Etapa 2** | Ligero brillo corporal | Menor | Rugido Estándar |
+| **Etapa 3** | Lava goteando de la boca | Moderada | Rugido Estándar |
+| **Etapa 4** | Grietas rojas pulsantes en las alas | Masiva | Flaming Demon Rage AoE |
+
+<Callout type="warning" title="Advertencia Crítica">
+¡La Etapa 4 es estrictamente temporal! No desperdicies tu ventana de Etapa 4 volando de un lado a otro. Aterriza inmediatamente y descarga tu Flaming Demon Rage AoE para maximizar tu daño por segundo (DPS).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de Combate y Combos de Habilidades">
+
+Titanus Rodan destaca al castigar a oponentes más lentos abusando de los retrasos de animación en sus movimientos principales. Su conjunto de habilidades cuenta con dos habilidades primarias de alto impacto que pueden cambiar el rumbo de cualquier batalla.
+
+| Nombre de Habilidad | Enfriamiento | Valor de Daño | Costo de Energía | Tipo de Ataque |
+|--- |--- |--- |--- |--- |
+| **Flaming Demon Rage** | 10 Segundos | 1,200 (Etapa 4) | 35 Carga / 15 Calor | Rugido AoE |
+| **Flaming Demon Summon** | 10 Segundos | Ninguno | Ninguno | Rugido de Utilidad |
+
+Para ejecutar su ciclo de combate más efectivo, los jugadores deben centrarse en utilizar *Vulcan Burst* y *Ragnarok*. Estos movimientos cuentan con áreas de impacto (hitboxes) amplias y un alto daño base, lo que los hace increíblemente difíciles de castigar para los oponentes.
+
+<Steps>
+  <Step num="1" title="Acumular Calor">
+    Ataca a los objetivos usando ataques aéreos rápidos de golpe y huida para cargar completamente tu barra de Calor Enlatado.
+  </Step>
+  <Step num="2" title="Activar Heat Riser">
+    Aterriza en terreno llano y activa tu utilidad para ascender a los niveles de poder de Etapa 3 o Etapa 4.
+  </Step>
+  <Step num="3" title="Desatar Ragnarok">
+    Despliega tu movimiento Ragnarok de alto daño para romper los bloqueos enemigos y aturdir a tu oponente.
+  </Step>
+  <Step num="4" title="Ejecutar Rugido de Etapa 4">
+    Activa Flaming Demon Rage mientras estás posicionado directamente al lado del objetivo para infligir hasta 1,200 de daño de área (AoE).
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ventaja en Combate">
+Debido a que Titanus Rodan inflige un daño significativamente mayor mientras lucha en tierra, intenta atraer a los voladores enemigos a combates a nivel del suelo donde tus modificadores cuerpo a cuerpo brillan.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión para Jugadores de Rodan">
+
+Para maximizar tu eficiencia con Titanus Rodan, sigue esta hoja de ruta de progresión estructurada. Esta lista garantiza que desbloquees, mejores y domines sus mecánicas en el menor tiempo posible.
+
+<Checklist
+  id="rodan-progression"
+  title="Objetivos de Maestría de Titanus Rodan:"
+  items={[
+    "Acumular suficientes G-Cells para comprar a Titanus Rodan directamente en la tienda",
+    "Practicar la transición de tierra a aire para dominar las tácticas de evasión a Mach 3.5",
+    "Aprender a ciclar de la Etapa 1 a la Etapa 4 del Heat Riser en menos de dos minutos",
+    "Lograr asestar un Flaming Demon Rage AoE de máximo daño en un servidor en vivo",
+    "Dominar las salas del servidor contrarrestando kaijus pesados y lentos basados en tierra"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Kaiju Alpha Rodan bueno para principiantes?",
+    answer: "Sí. Titanus Rodan es ampliamente considerado uno de los mejores y más fáciles voladores de usar en el juego. Tiene una salud base alta, una producción de daño masiva y mecánicas sencillas."
+  },
+  {
+    question: "¿Cómo llego a la Etapa 4 del Heat Riser?",
+    answer: "Debes llenar tu barra naranja de Calor Enlatado asestando ataques, aterrizar en el suelo y usar la utilidad Heat Riser. Repite este proceso hasta que pases de la Etapa 1 a la Etapa 4."
+  },
+  {
+    question: "¿Qué sucede cuando expira la Etapa 4 del Heat Riser?",
+    answer: "Cuando termina la duración temporal de la Etapa 4, tu personaje volverá a la Etapa 3. Puedes reingresar rápidamente a la Etapa 4 si has ahorrado suficiente Calor Enlatado."
+  },
+  {
+    question: "¿Por qué Ragnarok es un movimiento tan importante?",
+    answer: "Ragnarok inflige un daño extremadamente alto y es muy difícil de castigar debido a sus generosas áreas de impacto, lo que lo hace perfecto para el juego de presión."
+  }
+]} />
+
+</Section>
