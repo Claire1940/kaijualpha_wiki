@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Kaiju Alpha Behemoth: Guía de combate, builds y estrategia",
+  description: "Domina al kaiju alpha behemoth en Kaiju Universe. Conoce las mejores builds, estadísticas de habilidades y estrategias de combate avanzadas para dominar tus batallas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Behemoth+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de kaijualpha"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Enfoque principal**: Domina las mecánicas de alta salud y gran daño de **kaiju alpha behemoth** en Kaiju Universe.
+- **Habilidad principal**: Usa Demolición de Terreno (Turf Demolition) para infligir un daño masivo en área de efecto (AoE) contra enemigos agrupados.
+- **Supervivencia clave**: Activa la regeneración de Bendición de la Naturaleza (Nature's Blessing) al retirarte o inmediatamente después de asegurar una victoria.
+- **Estilo de combate**: Mantén el rango máximo de cuerpo a cuerpo y utiliza técnicas de giro de colmillos (tusk-flicking) para superar a tus oponentes.
+- **Build óptima**: Invierte fuertemente en Daño y Salud para maximizar tu eficiencia de intercambio en combate cuerpo a cuerpo.
+</Callout>
+
+<Section icon={Map} title="Descripción general y economía de Kaiju Alpha Behemoth">
+
+El **kaiju alpha behemoth** (inspirado en Titanus Behemoth de *Godzilla: King of the Monsters*) es una potencia premium de gran impacto en Kaiju Universe. Conocido por sus enormes colmillos de mamut e increíbles capacidades defensivas, esta bestia gigante infunde respeto en el campo de batalla. Adquirir este titán requiere una inversión significativa de G-Cells, pero el retorno de inversión en poder bruto y supervivencia no tiene rival.
+
+| Atributo | Valor | Descripción |
+|--- |--- |--- |
+| **Costo de G-Cells** | 80,000 | Precio de nivel premium para un rendimiento de gama alta |
+| **Rol principal** | Tanque / Luchador cuerpo a cuerpo | Gran cantidad de salud con capacidades de autorregeneración |
+| **Movimiento característico** | Demolición de Terreno (Turf Demolition) | Golpe de área (AoE) de gran daño que castiga a los objetivos lentos |
+| **Habilidad de curación** | Bendición de la Naturaleza (Nature's Blessing) | Regeneración rápida de salud para sostener combates consecutivos |
+
+<Callout type="warning" title="Advertencia de movilidad">
+Aunque Behemoth destaca en poder bruto, sus animaciones de preparación son lentas. Evita usar ataques pesados como Demolición de Terreno (Turf Demolition) cuando tu oponente esté huyendo activamente, ya que quedarás inmovilizado en el sitio durante la animación.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estadísticas de combate y desglose de habilidades">
+
+Comprender los tiempos de recarga y la utilidad del **kaiju alpha behemoth** es fundamental para maximizar tu daño infligido. Aunque algunas de sus habilidades atmosféricas están diseñadas para la guerra psicológica, sus golpes físicos tienen un peso inmenso.
+
+| Nombre de habilidad | Enfriamiento (s) | Tipo | Calificación de daño | Utilidad principal |
+|--- |--- |--- |--- |--- |
+| **Woodland Call** | 13.60 | Rugido | Ninguno | Reproduce un ambiente de selva profunda para imponer dominio |
+| **Warfare Declaration** | 13.95 | Rugido | Ninguno | Grito de guerra agresivo que termina con dos pisotones en el suelo |
+| **Turf Demolition** | Moderado | Ataque en área | Extremadamente alto | Golpe masivo contra el suelo; inmoviliza al usuario durante la ejecución |
+| **Nature's Blessing** | Largo | Curación | Ninguno | Regenera un gran porcentaje de salud a lo largo del tiempo |
+
+<CardGrid cols={3}>
+  <Card title="Woodland Call">
+    - **Rugido estético**
+    - Ambiente de selva tropical profunda
+    - Perfecto para burlarse tras una eliminación
+  </Card>
+  <Card title="Warfare Declaration">
+    - **Pisotones intimidantes**
+    - Efecto de sacudida doble del suelo
+    - Señala un enfrentamiento agresivo
+  </Card>
+  <Card title="Nature's Blessing">
+    - **Regeneración rápida**
+    - Es mejor usarlo a cubierto
+    - Permite batallas consecutivas rápidas
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Técnica de giro de colmillos (Tusk Flicking)">
+Maximiza tu alcance cuerpo a cuerpo dándole la espalda a tu oponente y girando rápidamente la cámara hacia él. Esto extiende la caja de colisión (hitbox) activa de tus enormes colmillos, permitiéndote asestar golpes mientras te mantienes a salvo fuera de su rango de ataque inmediato.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Builds de estadísticas óptimas para Behemoth">
+
+Para aprovechar al máximo tu inversión de 80,000 G-Cells, debes asignar correctamente tus puntos de habilidad. Dependiendo de tu estilo de juego personal, recomendamos dos builds altamente optimizadas para el **kaiju alpha behemoth**.
+
+<Steps>
+  <Step num="1" title="La build del gladiador equilibrado">
+    Asigna **6 de Salud, 6 de Regeneración y 8 de Daño**. Esta configuración ofrece un excelente sustento para partidas prolongadas en servidores públicos donde esperas interferencias constantes de terceros.
+  </Step>
+  <Step num="2" title="La build del luchador de alta salud">
+    Asigna **8 de Salud, 4 de Regeneración y 8 de Daño**. Esta configuración maximiza tu reserva de salud bruta, asegurando que puedas sobrevivir a combos de daño explosivo de oponentes frágiles pero potentes (glass cannons) en escenarios 1v1.
+  </Step>
+  <Step num="3" title="Ejecución de la asignación de estadísticas">
+    Aplica tus puntos en el lobby de personajes antes de aparecer. Concéntrate en asegurar tus puntos de Daño primero para garantizar que puedas eliminar objetivos más pequeños rápidamente durante las rutas de farmeo de G-Cells.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de build">
+Si juegas principalmente en duelos organizados, la build del luchador de alta salud es superior porque la regeneración pasiva es menos impactante durante combates cortos y de alta intensidad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guía táctica de enfrentamientos">
+
+El **kaiju alpha behemoth** se desempeña excepcionalmente bien contra titanes terrestres más lentos, pero puede tener dificultades contra oponentes voladores o muy ágiles. Utiliza esta tabla de enfrentamientos para guiar tus decisiones de combate.
+
+| Tipo de enemigo | Dificultad | Estrategia recomendada |
+|--- |--- |--- |
+| **Tanques pesados** | Fácil | Provoca que gasten sus enfriamientos principales y luego castígalos con Demolición de Terreno |
+| **Veloces y ágiles** | Medio | Mantén las distancias, usa los giros de colmillos y evita que te rodeen |
+| **Atacantes a distancia** | Difícil | Usa la cobertura para cerrar la brecha; retírate y activa Bendición de la Naturaleza si reducen tu salud |
+
+<Checklist
+  id="behemoth-combat-checklist"
+  title="Lista de preparación para el combate:"
+  items={[
+    "Verifica que tu build de estadísticas esté configurada en 8/4/8 o 6/6/8 antes de aparecer",
+    "Localiza estructuras cercanas para romper la línea de visión y curarte de forma segura",
+    "Practica el movimiento de cámara del giro de colmillos en objetos del entorno",
+    "Guarda Demolición de Terreno para momentos en que el enemigo esté aturdido o acorralado"
+  ]}
+/>
+
+<Callout type="info" title="Curiosidad de la historia">
+Aunque el cómic oficial de Godzilla: Dominion retrata a Behemoth como alguien más inteligente que físicamente poderoso, su representación en Kaiju Universe lo convierte en una fuerza devastadora capaz de aplastar incluso a los titanes más fuertes con facilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo al kaiju alpha behemoth en el juego?",
+    answer: "Puedes comprar este titán en el menú de selección de personajes por 80,000 G-Cells. Es un personaje de nivel premium que ofrece alta salud y una sólida regeneración."
+  },
+  {
+    question: "¿Cuál es el mejor momento para usar Bendición de la Naturaleza?",
+    answer: "Activa Bendición de la Naturaleza cuando tu salud sea baja y hayas logrado distanciarte de tu oponente, o inmediatamente después de ganar un combate para prepararte para el siguiente contendiente."
+  },
+  {
+    question: "¿Por qué Demolición de Terreno sigue fallando contra mis objetivos?",
+    answer: "Demolición de Terreno tiene una animación de preparación lenta e inmoviliza por completo al usuario. No lo uses contra objetivos en movimiento; en su lugar, utilízalo cuando tu oponente esté acorralado o intercambiando golpes activamente contigo."
+  },
+  {
+    question: "¿Qué es el Behemoth Congelado mencionado por la comunidad?",
+    answer: "El Behemoth Congelado (Frozen Behemoth) es una contraparte limitada de pase de batalla del Behemoth estándar, que presenta una estética helada única y efectos visuales modificados."
+  }
+]} />
+
+</Section>
